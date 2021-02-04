@@ -1,0 +1,50 @@
+.fixme {
+  width: 100%;
+}
+
+.main__sec {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.main__sec::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.main__sec--fumikiri {
+  background: url("../img/fumikiri.jpg");
+  background-size: cover;
+}
+.main__sec--musashino {
+  background: url("../img/musasino.jpg");
+  background-size: cover;
+}
+.main__sec--kamakura {
+  background: url("../img/kamakura.jpg");
+  background-size: cover;
+}
+.main__sec--akibadai {
+  background: url("../img/akibadai.jpg");
+  background-size: cover;
+}
+.main__sec--hiratsuka {
+  background: url("../img/hiratsuka.jpg");
+  background-size: cover;
+}
+.main__sec--midorisou {
+  background: url("../img/midorisou.jpg");
+  background-size: cover;
+}
+.main__sec__title {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  color: #000;
+}
