@@ -1,0 +1,94 @@
+
+body{
+    padding: 0;
+    width: 100%;
+}
+main{
+    width: 100%;
+}
+.hidden {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+nav{
+    display: none;
+}
+
+.synopsis h2{
+    font-size: 24px;
+    padding-left: 1em;
+    width: 90%;
+    padding-bottom: 0.4em;
+    border-bottom: solid #D02A2A 2px;
+}
+#story{
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em;
+    font-size: 16px;
+    line-height: 1.4em;
+}
+.button{
+    color: #ffffff;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: red;
+}
+.detail_story h3{
+    font-size: 24px;
+    padding-left: 1em;
+    width: 90%;
+    padding-bottom: 0.4em;
+    border-bottom: solid #D02A2A 2px;
+}
+.syouhoku_member dl{
+    display: flex;
+    width: 100%;
+    margin:  auto;
+}
+.member{
+    padding-left: 1.9em;
+    margin-top: 1em;
+}
+.member dd{
+    text-align: center;
+    padding-top: 0.8em;
+}
+.name h3{
+    margin-bottom: 1em;
+}
+.seiti h2,#book h2{
+    font-size: 24px;
+    padding-left: 1em;
+    width: 90%;
+    padding-bottom: 0.4em;
+    border-bottom: solid #D02A2A 2px;
+    margin-bottom: 1em;
+}
+
+
+#book dl{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    overflow: hidden;
+    }
+    
+.book_num{
+    margin-bottom:10px;
+    width:33%;
+    text-align: center;
+}
+.book_num img {
+    width: 90px;
+}
+.slider img{
+    width: 100%;
+    margin: 0 auto;
+}
