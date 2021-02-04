@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+*{
+  width: 100%;
+  margin: auto;
+  font-size: 4.3vw;
+  font-family: 'Roboto', sans-serif;
+}
+
+main{
+  width: 95%;
+  nav{
+    ul{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      li{
+        width: 48%;
+        margin: 6px 0;
+        button{
+          width: 100%;
+          color: white;
+          padding: 16px;
+          text-align: center;
+          border-radius: 7px;
+          background: dimgray;
+        }
+      }
+    }
+  }
+  div{
+    padding: 3px 0;
+    h2{
+      text-align: center;
+      font-weight: bolder;
+      padding: 15px;
+    }
+  }
+  section{
+    padding: 10px;
+    display: flex;
+    flex-flow: row-reverse;
+    a{
+      display: flex;
+      flex-flow: row-reverse;
+    }
+    h3{
+      border-bottom: solid #BB5535 3px;
+      height: 60px;
+      margin: auto;
+      color: #5B5B5B;
+      padding: 0 3px;
+      margin-left: 5%;
+      text-align: right;
+      line-height: normal;
+      span{
+        font-size: 6vw;
+        font-weight: bolder;
+      }
+    }
+    p{
+      width: 55%;
+    }
+  }
+  .shohoku{
+    color: white;
+    border-top: solid #000 3px;
+    border-bottom: solid #000 3px;
+    h2{
+      background: #D02A2A;
+    }
+  }
+  .ryonan{
+    color: #0B46B9;
+    border-top: solid #0B46B9 3px;
+    border-bottom: solid #0B46B9 3px;
+  }
+  .shoyo{
+    color: white;
+    border-top: solid #1D9521 3px;
+    border-bottom: solid #1D9521 3px;
+    h2{
+      background-color: #1D9521;
+    }
+  }
+  .kainan{
+    border-top: solid #3700AD 3px;
+    border-bottom: solid #3700AD 3px;
+    h2{
+      background-color: #FFE600;
+    }
+  }
+  .toyotama{
+    color: white;
+    border-top: solid #001F8E 3px;
+    border-bottom: solid #001F8E 3px;
+    h2{
+      background-color: #228DEF;
+    }
+  }
+  .sanno{
+    color: #228DEF;
+    border-top: solid #228DEF 3px;
+    border-bottom: solid #228DEF 3px;
+  }
+
+}
