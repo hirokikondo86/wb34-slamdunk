@@ -1,0 +1,58 @@
+.scene-detail {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-image {
+    margin-top: 25px;
+}
+
+.scene-detail img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: -1;
+}
+
+.explain {
+    margin-top: 25px;
+    border: 1px black solid;
+    position: relative;
+}
+
+.explain p {
+    font-size: 16px;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.triangle1 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 50px 0 0;
+    border-color: var(--primary-color) transparent transparent transparent;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+.triangle2 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 50px 50px;
+    border-color: transparent transparent var(--primary-color) transparent;
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+}
+
+.back-btn {
+    width: auto;
+    margin: 0 auto;
+    margin-top: 25px;
+}
