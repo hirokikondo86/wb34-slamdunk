@@ -1,0 +1,29 @@
+.main {
+  margin-bottom: 5rem;
+}
+
+.img {
+  margin-bottom: 2rem;
+}
+.img__anime {
+  width: 100%;
+  height: 220px;
+  margin: 2rem 0;
+}
+.img__sanc {
+  width: 100%;
+  height: 220px;
+}
+
+.desc {
+  margin-bottom: 3rem;
+}
+.desc > p {
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
+}
+
+.sanc-map {
+  width: 100%;
+  height: 300px;
+}
