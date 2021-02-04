@@ -1,0 +1,27 @@
+.content {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.content img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: -1;
+}
+
+.content dt {
+    /* 要素の影([右][下][ぼかし][広がり][影の色][内側]) */
+    box-shadow: 0px -15px 10px 5px rgba(0, 0, 0, 0.4) inset;
+    border: 5px solid #666
+}
+
+.scene-title {
+    color: white;
+    font-size: 16px;
+    text-align: right;
+    position: relative;
+    bottom: 24px;
+    right: 10px;
+}
