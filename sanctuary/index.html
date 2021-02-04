@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SLAM DUNK | 聖地</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/destyle.css">
+    <link rel="stylesheet" href="css/index.css">
   </head>
   <body>
     <header>
-      <p><img src="../img/utils/logo.png" alt="スラムダンクのロゴ画像"></p>
+      <img class="fixme" src="../img/utils/logo.png" alt="スラムダンクのロゴ画像" />
     </header>
     <!-- グローバルナビゲーション -->
     <nav id="globalNav">
@@ -25,35 +28,41 @@
         </div>
       </dl>
     </nav>
-    <main>
-      <h1>スラムダンクの聖地一覧</h1>
-      <section>
-        <h3>鎌倉高校前駅の踏み切り</h3>
-        <p><img src="img/fumikiri.jpg" alt="鎌倉高校前駅の踏み切り" /></p>
-      </section>
-      <section>
-        <h3>東京都立武蔵野北高等学校</h3>
-        <p><img src="img/musasino.jpg" alt="東京都立武蔵野北高等学校" /></p>
-      </section>
-      <section>
-        <h3>神奈川県立鎌倉高等学校</h3>
-        <p><img src="img/kamakura.jpg" alt="神奈川県立鎌倉高等学校" /></p>
-      </section>
-      <section>
-        <h3>秋葉台文化体育館</h3>
-        <p><img src="img/akibadai.jpg" alt="秋葉台文化体育館" /></p>
-      </section>
-      <section>
-        <h3>平塚総合体育館</h3>
-        <p><img src="img/hiraduka.jpg" alt="平塚総合体育館" /></p>
-      </section>
-      <section>
-        <h3>みどり荘</h3>
-        <p><img src="img/midorisou.jpg" alt="みどり荘" /></p>
-      </section>
+    <main class="main">
+      <h1 class="title">聖地一覧</h1>
+      <a href="/sanctuary/detail.html">
+        <div class="main__item main__item--fumikiri">
+          <h3 class="main__item__title">鎌倉高校前駅の踏み切り</h3>
+        </div>
+      </a>
+      <a href="/sanctuary/detail.html">
+        <div class="main__item main__item--musashino">
+          <h3 class="main__item__title">東京都立武蔵野北高等学校</h3>
+        </div>
+      </a>
+      <a href="/sanctuary/detail.html">
+        <div class="main__item main__item--kamakura">
+          <h3 class="main__item__title">神奈川県立鎌倉高等学校</h3>
+        </div>
+      </a>
+      <a href="/sanctuary/detail.html">
+        <div class="main__item main__item--akibadai">
+          <h3 class="main__item__title">秋葉台文化体育館</h3>
+        </div>
+      </a>
+      <a href="/sanctuary/detail.html">
+        <div class="main__item main__item--hiratsuka">
+          <h3 class="main__item__title">平塚総合体育館</h3>
+        </div>
+      </a>
+      <a href="/sanctuary/detail.html">
+        <div class="main__item main__item--midorisou">
+          <h3 class="main__item__title">みどり荘</h3>
+        </div>
+      </a>
     </main>
     <footer>
-      <p><small>&copy;井上雄彦/集英社・「Slum Dunk」製作委員会</small></p>
+      <small>&copy;井上雄彦/集英社・「Slum Dunk」製作委員会</small>
     </footer>
   </body>
 </html>

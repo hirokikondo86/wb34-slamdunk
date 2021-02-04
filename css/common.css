@@ -3,8 +3,8 @@
   --secondary-color: #545454;
 }
 
-body {
-  padding: 0 2rem;
+main {
+  padding: 0 1.5rem;
 }
 
 .primary {
@@ -284,6 +284,23 @@ html {
 }
 .box600 {
   width: 600px;
+}
+/*--------------------------------------------*
+ * Flex
+ *--------------------------------------------*/
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.items-center{
+  align-items: center;
+}
+.flex-center-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*--------------------------------------------*
  * テキスト
