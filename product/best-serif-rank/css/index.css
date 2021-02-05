@@ -6,11 +6,6 @@
     
 }
 
-main{
-    width: 90%;
-    margin: 0 auto;
-}
-
 p{
     margin-bottom: 50px;
 }
@@ -59,7 +54,6 @@ dl{
 dt{
     font-weight: 600;
     font-size: 14px;
-   
 }
 
 dd{
