@@ -16,6 +16,20 @@
   max-width: 750px;
 }
 
+@media screen and (min-width: 960px) {
+  .link-wrap {
+    width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .main__item {
+    width: 350px;
+    height: 250px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .main__item {
     height: 220px;
