@@ -24,9 +24,10 @@
     font-size: 16px;
     width: 75%;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
     padding-top: 25px;
     padding-bottom: 25px;
+    line-height: 160%;
 }
 
 .triangle1 {
@@ -52,7 +53,21 @@
 }
 
 .back-btn {
-    width: auto;
-    margin: 0 auto;
-    margin-top: 25px;
+    background-color: #D02A2A;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 600;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.back-btn p {
+    color: #fff;
+}
+
+.back-btn span {
+    margin-left: 20px;
 }
