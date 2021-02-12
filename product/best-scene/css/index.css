@@ -14,7 +14,7 @@
 .content dt {
     /* 要素の影([右][下][ぼかし][広がり][影の色][内側]) */
     box-shadow: 0px -15px 10px 5px rgba(0, 0, 0, 0.4) inset;
-    border: 5px solid #666
+    border: 5px solid rgb(225, 225, 225)
 }
 
 .scene-title {
