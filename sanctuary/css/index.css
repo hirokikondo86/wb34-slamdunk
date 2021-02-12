@@ -8,12 +8,30 @@
 .main__item {
   position: relative;
   box-shadow: inset 0px -30px 20px -5px rgba(255, 255, 255);
-  width: 100%;
-  height: 220px;
+  margin: auto;
   margin-top: 2rem;
   border: 1px solid;
   cursor: pointer;
+  width: 100%;
+  max-width: 750px;
 }
+
+@media screen and (max-width: 480px) {
+  .main__item {
+    height: 220px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  .main__item {
+    height: 350px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .main__item {
+    height: 400px;
+  }
+}
+
 .main__item::before {
   position: absolute;
   content: "";
