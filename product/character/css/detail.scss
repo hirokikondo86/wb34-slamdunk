@@ -6,9 +6,18 @@
   font-family: 'Roboto', sans-serif;
 }
 
+h1{
+  opacity: 0.4;
+  font-size: 10vw;
+  text-align: right;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
 main{
   padding: 5%;
-  h1{
+  h2{
+    color: #5B5B5B;
     border-bottom: solid #BB5535 3px;
     padding: 1% 3%;
     span{
@@ -25,7 +34,7 @@ main{
   }
   article{
     margin-bottom: 25px;
-    h2{
+    h3{
       font-size: 5vw;
       padding: 0.5% 0;
       margin-bottom: 10px;
@@ -41,6 +50,48 @@ main{
       dd{
         width: 70%;
         margin-left: 100px;
+      }
+    }
+  }
+}
+
+@media (min-width: 960px){
+  *{
+    font-size: 2vw;
+  }
+  .pc{
+    display: flex;
+    #globalNav{
+      width: 25%;
+    }
+    main{
+      width: 46%;
+      padding: 1% 2% 1% 1%;
+      position: relative;
+      left: 297px;
+      margin-bottom: 100px;
+      .charimg{
+        width: 64%;
+        position: absolute;
+        top: 0px;
+        right: 469px;
+        padding: 5px;
+      }
+      h2{
+        span{
+          font-size: 3vw;
+        }
+      }
+      article{
+        h3{
+          font-size: 3vw;
+        }
+        dl dt{
+          width: 40%;
+        }
+      }
+      article:nth-of-type(1){
+        margin-top: 40px;
       }
     }
   }

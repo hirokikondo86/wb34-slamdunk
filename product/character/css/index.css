@@ -6,6 +6,15 @@
   font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+  opacity: 0.4;
+  font-size: 10vw;
+  text-align: right;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
 main {
   width: 95%;
 }
@@ -17,7 +26,6 @@ main nav ul {
 }
 main nav ul li {
   width: 48%;
-  margin: 6px 0;
   margin: 6% 0;
 }
 main nav ul li a {
@@ -33,24 +41,27 @@ main nav ul li .longer {
 main nav ul li .longest {
   padding: 16px 17%;
 }
-main div {
+main article {
+  margin-bottom: 20px;
+}
+main article div {
   padding: 3px 0;
 }
-main div h2 {
+main article div h2 {
   text-align: center;
   font-weight: bolder;
   padding: 15px;
 }
-main section {
+main article section {
   padding: 10px;
   display: flex;
   flex-flow: row-reverse;
 }
-main section a {
+main article section a {
   display: flex;
   flex-flow: row-reverse;
 }
-main section h3 {
+main article section h3 {
   border-bottom: solid #BB5535 3px;
   height: 60px;
   margin: auto;
@@ -60,53 +71,109 @@ main section h3 {
   text-align: right;
   line-height: normal;
 }
-main section h3 span {
+main article section h3 span {
   font-size: 6vw;
   font-weight: bolder;
 }
-main section p {
+main article section p {
   width: 55%;
 }
-main .shohoku {
+main article .shohoku {
   color: white;
   border-top: solid #000 3px;
   border-bottom: solid #000 3px;
 }
-main .shohoku h2 {
+main article .shohoku h2 {
   background: #D02A2A;
 }
-main .ryonan {
+main article .ryonan {
   color: #0B46B9;
   border-top: solid #0B46B9 3px;
   border-bottom: solid #0B46B9 3px;
 }
-main .shoyo {
+main article .shoyo {
   color: white;
   border-top: solid #1D9521 3px;
   border-bottom: solid #1D9521 3px;
 }
-main .shoyo h2 {
+main article .shoyo h2 {
   background-color: #1D9521;
 }
-main .kainan {
+main article .kainan {
   border-top: solid #3700AD 3px;
   border-bottom: solid #3700AD 3px;
 }
-main .kainan h2 {
+main article .kainan h2 {
   background-color: #FFE600;
 }
-main .toyotama {
+main article .toyotama {
   color: white;
   border-top: solid #001F8E 3px;
   border-bottom: solid #001F8E 3px;
 }
-main .toyotama h2 {
+main article .toyotama h2 {
   background-color: #228DEF;
 }
-main .sanno {
+main article .sanno {
   color: #228DEF;
   border-top: solid #228DEF 3px;
   border-bottom: solid #228DEF 3px;
+}
+
+@media (min-width: 960px) {
+  * {
+    font-size: 2vw;
+  }
+
+  .pc {
+    display: flex;
+  }
+  .pc #globalNav {
+    width: 25%;
+  }
+  .pc main {
+    width: 75%;
+    padding-right: 2%;
+  }
+  .pc main nav ul {
+    margin-bottom: 5%;
+  }
+  .pc main nav ul li {
+    width: 33.3%;
+    margin: 3.5% 0;
+  }
+  .pc main nav ul li a {
+    padding: 16px 31%;
+  }
+  .pc main nav ul li .longer {
+    padding: 16px 21.7%;
+  }
+  .pc main nav ul li .longest {
+    padding: 16px 17%;
+  }
+  .pc main article .chars {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .pc main article .chars section {
+    width: 50%;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-flow: row-reverse;
+  }
+  .pc main article .chars section a {
+    display: flex;
+    flex-flow: row-reverse;
+  }
+  .pc main article .chars section h3 {
+    padding: 0 5px;
+    font-size: 1.5vw;
+    line-height: unset;
+  }
+  .pc main article .chars section h3 span {
+    font-size: 3vw;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
