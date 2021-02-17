@@ -3,18 +3,9 @@
 }
 
 /***** Mobile *****/
-@media (max-width: 960px) {
+@media screen and (max-width: 960px) {
   .header {
     padding: 0;
-    margin-bottom: 2.5rem;
-  }
-
-  .header__title {
-    margin-right: 1rem;
-    font-size: 3rem;
-    color: #c4c4c4;
-    text-align: right;
-    text-transform: uppercase;
   }
 
   .header__cont__logo {
@@ -140,12 +131,14 @@
 }
 
 /***** Desktop *****/
-@media (min-width: 960px) {
+@media screen and (min-width: 960px) {
   .header {
     width: 350px;
     height: 100%;
-    padding: 0;
-    border: 1px solid #000;
+  }
+
+  .header__title {
+    display: none;
   }
 
   .header__cont {
@@ -153,6 +146,7 @@
     padding-bottom: 8rem;
   }
   .header__cont__logo {
+    display: block;
     width: 200px;
     margin: 2rem auto;
   }
