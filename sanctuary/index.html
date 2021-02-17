@@ -4,30 +4,66 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SLAM DUNK | 聖地</title>
-    <link rel="stylesheet" href="../css/destyle.css">
-    <link rel="stylesheet" href="../css/common.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="../css/destyle.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
-    <header>
-      <img class="fixme" src="../img/utils/logo.png" alt="スラムダンクのロゴ画像" />
+    <header class="header">
+      <div class="header__cont">
+        <img class="header__cont__logo" src="../img/logo.png" alt="ロゴ" />
+
+        <input id="hamb" class="header__cont__checkbox" type="checkbox" />
+        <label class="header__cont__menu-btn" for="hamb"><span></span></label>
+
+        <nav class="header__cont__nav drawer-menu">
+          <img class="drawer-menu__logo" src="../img/logo2.png" alt="ロゴ" />
+          <ul class="drawer-menu__list">
+            <li class="drawer-menu__list__item">
+              <a href="../product/detail/index.html">作品概要</a>
+            </li>
+            <li class="drawer-menu__list__item drawer-menu__list__item--right">
+              <a href="../product/theme-song/opening.html">オープニング</a>
+            </li>
+            <li class="drawer-menu__list__item drawer-menu__list__item--right">
+              <a href="../product/theme-song/ending.html">エンディング</a>
+            </li>
+            <li class="drawer-menu__list__item">
+              <a href="../product/character/index.html">キャラクター紹介</a>
+            </li>
+            <li class="drawer-menu__list__item">
+              <a href="../product/best-game/index.html">名試合</a>
+            </li>
+            <li class="drawer-menu__list__item">
+              <a href="../product/index.html">名場面</a>
+            </li>
+            <li class="drawer-menu__list__item">
+              <a href="../product/best-serif-rank/index.html">名言</a>
+            </li>
+            <li class="drawer-menu__list__item">
+              <a href="./index.html">聖地</a>
+            </li>
+          </ul>
+          <div class="drawer-menu__bb">
+            <img
+              class="drawer-menu__bb__img"
+              src="../img/bb.png"
+              alt="バスケットボール"
+            />
+          </div>
+          <div class="drawer-menu__bb2">
+            <img
+              class="drawer-menu__bb2__img"
+              src="../img/bb2.png"
+              alt="バスケットボール"
+            />
+          </div>
+          <label class="drawer__cont__back" for="hamb"></label>
+        </nav>
+      </div>
     </header>
-    <!-- グローバルナビゲーション -->
-    <nav id="globalNav">
-      <dl>
-        <div>
-          <dt><a href="../product/detail/">作品概要</a></dt>
-          <dd><a href="../product/theme-song/opening.html">オープニング</a></dd>
-          <dd><a href="../product/theme-song/ending.html">エンディング</a></dd>
-          <dt class="none">作品紹介</dt>
-          <dd><a href="../product/character/index.html">キャラクター紹介</a></dt>
-          <dd><a href="../product/best-game/index.html">名試合</a></dd>
-          <dd><a href="../product/index.html">名場面</a></dd>
-          <dd><a href="../product/best-serif-rank/index.html">名言ランキング</a></dd>
-          <dd><a href="./index.html">聖地</a></dd>
-        </div>
-      </dl>
-    </nav>
+
     <main class="main">
       <h1 class="title">聖地一覧</h1>
       <div class="link-wrap">
@@ -63,7 +99,8 @@
         </a>
       </div>
     </main>
-    <footer>
+
+    <footer class="footer">
       <small>&copy;井上雄彦/集英社・「Slum Dunk」製作委員会</small>
     </footer>
   </body>

@@ -3,11 +3,11 @@
   --secondary-color: #545454;
 }
 
-main {
+.main {
   padding: 0 1.5rem;
 }
 
-footer{
+.footer {
   display: flex;
   justify-content: center;
   align-items: center;
