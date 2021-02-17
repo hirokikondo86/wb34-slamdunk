@@ -1,0 +1,103 @@
+html, body {
+  font-size: 64.5%;
+}
+
+/* main {
+  background-image: url("../img/background1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+} */
+
+article h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  border-bottom: solid #BB5535 1px;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+}
+article .description {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+.award {
+  font-size: 1.4rem;
+}
+.award dt, .award dd {
+  margin-bottom: 10px;
+}
+
+.award dt::before {
+  content: " ・ ";
+}
+
+.award dd::before {
+  content: "　- ";
+}
+.none {
+  display: none;
+}
+
+.data div {
+  display: flex;
+  align-items: center;
+  border-bottom: solid #bababa 0.5px;
+  margin-bottom: 10px;
+}
+.data dt, .data dd {
+  font-size: 1.3rem;
+  padding: 10px 0;
+}
+.data dt {
+  width: 25%;
+}
+.data dd {
+  width: 75%;
+}
+.data dt {
+  text-align: center;
+}
+
+.theme-song section h3 {
+  width: 150px;
+  color: #6B6B6B;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border-bottom: solid #6B6B6B 1px;
+  padding: 5px 0;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.theme-song section img {
+  width: 100%;
+}
+.theme-song section dl {
+  margin-bottom: 20px;
+}
+.theme-song section dt {
+  margin-bottom: 10px;
+}
+.theme-song section dd {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.theme-song p {
+  width: 90%;
+  font-size: 1.4rem;
+  text-align: center;
+  background-color: #D02A2A;
+  margin: auto;
+  margin-bottom: 20px;
+  
+}
+.theme-song a {
+  color: white;
+  display: block;
+  padding: 10px 0;
+}
+.theme-song a::after {
+  content: " > ";
+}
