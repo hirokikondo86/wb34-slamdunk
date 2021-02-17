@@ -4,35 +4,96 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SLAM DUNK | 聖地詳細</title>
-    <link rel="stylesheet" href="../../css/destyle.css">
-    <link rel="stylesheet" href="../../css/common.css">
-    <link rel="stylesheet" href="css/detail.css">
+    <link rel="stylesheet" href="../../css/destyle.css" />
+    <link rel="stylesheet" href="../../css/common.css" />
+    <link rel="stylesheet" href="../../css/header.css" />
+    <link rel="stylesheet" href="css/detail.css" />
   </head>
   <body>
-    <header>
-      <img class="fixme" src="../../img/utils/logo.png" alt="スラムダンクのロゴ画像" />
-    </header>
-    <!-- グローバルナビゲーション -->
-    <nav id="globalNav">
-      <dl>
-        <div>
-          <dt><a href="../../product/detail.html">作品概要</a></dt>
-          <dd><a href="../../product/theme-song/opening.html">オープニング</a></dd>
-          <dd><a href="../../product/theme-song/ending.html">エンディング</a></dd>
-          <dt class="none">作品紹介</dt>
-          <dd><a href="../../product/character/index.html">キャラクター紹介</a></dt>
-          <dd><a href="../../product/best-game/index.html">名試合</a></dd>
-          <dd><a href="../../product/index.html">名場面</a></dd>
-          <dd><a href="../../product/best-serif-rank/index.html">名言ランキング</a></dd>
-          <dd><a href="../index.html">聖地</a></dd>
+    <div class="container">
+      <header class="header">
+        <div class="header__cont">
+          <a href="/">
+            <img
+              class="header__cont__logo"
+              src="../../img/logo.png"
+              alt="ロゴ"
+            />
+          </a>
+
+          <input id="hamb" class="header__cont__checkbox" type="checkbox" />
+          <label class="header__cont__menu-btn" for="hamb"><span></span></label>
+
+          <nav class="header__cont__nav drawer-menu">
+            <a href="/">
+              <img
+                class="drawer-menu__logo"
+                src="../../img/logo2.png"
+                alt="ロゴ"
+              />
+            </a>
+            <ul class="drawer-menu__list">
+              <li class="drawer-menu__list__item">
+                <a href="/product/detail/index.html">作品概要</a>
+              </li>
+              <li
+                class="drawer-menu__list__item drawer-menu__list__item--right"
+              >
+                <a href="/product/theme-song/opening.html">オープニング</a>
+              </li>
+              <li
+                class="drawer-menu__list__item drawer-menu__list__item--right"
+              >
+                <a href="/product/theme-song/ending.html">エンディング</a>
+              </li>
+              <li class="drawer-menu__list__item">
+                <a href="/product/character/index.html">キャラクター紹介</a>
+              </li>
+              <li class="drawer-menu__list__item">
+                <a href="/product/best-game/index.html">名試合</a>
+              </li>
+              <li class="drawer-menu__list__item">
+                <a href="/product/index.html">名場面</a>
+              </li>
+              <li class="drawer-menu__list__item">
+                <a href="/product/best-serif-rank/index.html">名言</a>
+              </li>
+              <li class="drawer-menu__list__item">
+                <a href="/sanctuary/index.html">聖地</a>
+              </li>
+            </ul>
+            <div class="drawer-menu__bb" href="/">
+              <img
+                class="drawer-menu__bb__img"
+                src="../../img/bb.png"
+                alt="バスケットボール"
+              />
+            </div>
+            <div class="drawer-menu__bb2" href="/">
+              <img
+                class="drawer-menu__bb2__img"
+                src="../../img/bb2.png"
+                alt="バスケットボール"
+              />
+            </div>
+            <label class="drawer__cont__back" for="hamb"></label>
+          </nav>
         </div>
-      </dl>
-    </nav>
-    <main class="main">
+      </header>
+      <main class="main">
+        <p class="main__ttl">sanctuary</p>
         <h1 class="title">鎌倉高校駅前の踏切り</h1>
         <div class="img">
-          <img class="img__anime" src="../img/fumikiri2.jpg" alt="鎌倉高校駅前の踏切り（アニメ版）"/>
-          <img class="img__sanc" src="../img/fumikiri.jpg"　alt="鎌倉高校駅前の踏切り"/>
+          <img
+            class="img__anime"
+            src="../img/fumikiri2.jpg"
+            alt="鎌倉高校駅前の踏切り（アニメ版）"
+          />
+          <img
+            class="img__sanc"
+            src="../img/fumikiri.jpg"
+            　alt="鎌倉高校駅前の踏切り"
+          />
         </div>
         <div class="desc">
           <p>
@@ -53,7 +114,8 @@
           aria-hidden="false"
           tabindex="0"
         ></iframe>
-    </main>
+      </main>
+    </div>
     <footer>
       <small>&copy;井上雄彦/集英社・「Slum Dunk」製作委員会</small>
     </footer>
