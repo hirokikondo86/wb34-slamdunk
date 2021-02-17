@@ -5,111 +5,170 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./../css/destyle.css" />
   <link rel="stylesheet" href="./../css/common.css" />
+  <link rel="stylesheet" href="../../css/header.css" />
   <link rel="stylesheet" href="./css/detail.css" />
   <title>SLAM DUNK | 作品概要</title>
 </head>
 <body>
-  <header>
-    <p><img src="../img/utils/logo.png" alt="スラムダンクのロゴ画像" width="100" /></p>
-  </header>
-  <!-- グローバルナビゲーション -->
-  <nav id="globalNav">
-    <dl>
-      <div>
-        <dt><a href="./detail.html">作品概要</a></dt>
-        <dd><a href="./theme-song/opening.html">オープニング</a></dd>
-        <dd><a href="./theme-song/ending.html">エンディング</a></dd>
-        <dt class="none">作品紹介</dt>
-        <dd><a href="./character/index.html">キャラクター紹介</a></dt>
-        <dd><a href="./best-game/index.html">名試合</a></dd>
-        <dd><a href="./best-scene/index.html">名場面</a></dd>
-        <dd><a href="./best-serif-rank/index.html">名言ランキング</a></dd>
-        <dd><a href="../sanctuary/index.html">聖地</a></dd>
+  <div class="container">
+    <header class="header">
+      <div class="header__cont">
+        <a href="/">
+          <img class="header__cont__logo" src="../img/logo.png" alt="ロゴ" />
+        </a>
+        <input id="hamb" class="header__cont__checkbox" type="checkbox" />
+        <label class="header__cont__menu-btn" for="hamb"><span></span></label>
+
+        <nav class="header__cont__nav drawer-menu">
+          <a href="/">
+            <img class="drawer-menu__logo" src="../img/logo2.png" alt="ロゴ" />
+          </a>
+          <ul class="drawer-menu__list">
+            <li class="drawer-menu__list__item">
+              <a href="/product/detail/index.html">作品概要</a>
+            </li>
+            <li
+              class="drawer-menu__list__item drawer-menu__list__item--right"
+            >
+              <a href="/product/theme-song/opening.html">オープニング</a>
+            </li>
+            <li
+              class="drawer-menu__list__item drawer-menu__list__item--right"
+            >
+              <a href="/product/theme-song/ending.html">エンディング</a>
+            </li>
+            <li class="drawer-menu__list__item">
+              <a href="/product/character/index.html">キャラクター紹介</a>
+            </li>
+            <li class="drawer-menu__list__item">
+              <a href="/product/best-game/index.html">名試合</a>
+            </li>
+            <li class="drawer-menu__list__item">
+              <a href="/product/index.html">名場面</a>
+            </li>
+            <li class="drawer-menu__list__item">
+              <a href="/product/best-serif-rank/index.html">名言</a>
+            </li>
+            <li class="drawer-menu__list__item">
+              <a href="/sanctuary/index.html">聖地</a>
+            </li>
+          </ul>
+          <div class="drawer-menu__bb" href="/">
+            <img
+              class="drawer-menu__bb__img"
+              src="../img/bb.png"
+              alt="バスケットボール"
+            />
+          </div>
+          <div class="drawer-menu__bb2" href="/">
+            <img
+              class="drawer-menu__bb2__img"
+              src="../img/bb2.png"
+              alt="バスケットボール"
+            />
+          </div>
+          <label class="drawer__cont__back" for="hamb"></label>
+        </nav>
       </div>
-    </dl>
-  </nav>
-  <main>
-    <h1 class="none">スラムダンクの作品概要ページ</h1>
-    <article class="product-detail">
-      <h2>スラムダンク誕生</h2>
-      <div class="description">
-        <p>主人公の不良少年桜木花道の挑戦と成長を軸にしたバスケットボール漫画。</p>
-        <p>単行本第21 - 23巻の初版発行部数250万部は、当時としての最高記録である。<br>
-          2018年8月時点で国内シリーズ累計発行部数は1億2000万部を突破している。</p>
-      </div>
-      <dl class="award">
-        <dt>第40回平成6年度（1994年）</dt>
-        <dd>小学館漫画賞少年部門受賞</dd>
-        <dt>2006年の文化庁メディア芸術祭</dt>
-        <dd>「日本のメディア芸術100選」マンガ部門 1位</dd>
-      </dl>
-      <dl class="data">
-        <div>
-          <dt>作者</dt>
-          <dd>井上雄彦</dd>
+    </header>
+    <main class="main">
+      <p class="main__ttl">about</p>
+      <h1 class="none">スラムダンクの作品概要ページ</h1>
+      <article class="product-detail">
+        <h2 class="title">スラムダンク誕生</h2>
+        <div class="description">
+          <p>主人公の不良少年桜木花道の挑戦と成長を軸にしたバスケットボール漫画。</p>
+          <p>単行本第21 - 23巻の初版発行部数250万部は、当時としての最高記録である。<br>
+            2018年8月時点で国内シリーズ累計発行部数は1億2000万部を突破している。</p>
         </div>
-        <div>
-          <dt>出版社</dt>
-          <dd>集英社</dd>
-        </div>
-        <div>
-          <dt>掲載誌</dt>
-          <dd>週刊少年ジャンプ</dd>
-        </div>
-        <div>
-          <dt>レーベル</dt>
-          <dd>ジャンプ・コミックス</dd>
-        </div>
-        <div>
-          <dt>発表号</dt>
-          <dd>1990年42号・1996年27号</dd>
-        </div>
-        <div>
-          <dt>発表期間</dt>
-          <dd>1990年10月1日・1996年6月17日</dd>
-        </div>
-        <div>
-          <dt>巻数</dt>
-          <dd>全31巻</dd>
-        </div>
-        <div>
-          <dt>完全版</dt>
-          <dd>全24巻</dd>
-        </div>
-        <div>
-          <dt>新装再編版</dt>
-          <dd>全20巻</dd>
-        </div>
-        <div>
-          <dt>話数</dt>
-          <dd>全276話</dd>
-        </div>
-      </dl>
-    </article>
-    <article class="theme-song">
-      <h2>主題歌</h2>
-      <section>
-        <h3>OPENING</h3>
-        <dl>
-          <dt><img src="./theme-song/img/op1.jpg" alt="君が好きだと叫びたいのジャケット" /></dt>
-          <dd>1期OP　君が好きだと叫びたい</dd>
-          <dd>BAAD</dd>
+        <dl class="award">
+          <dt>第40回平成6年度（1994年）</dt>
+          <dd>小学館漫画賞少年部門受賞</dd>
+          <dt>2006年の文化庁メディア芸術祭</dt>
+          <dd>「日本のメディア芸術100選」マンガ部門 1位</dd>
         </dl>
-        <p><a href="./theme-song/opening.html">オープニングの詳細ページへ</a></p>
-      </section>
-      <section>
-        <h3>ENDING</h3>
-        <dl>
-          <dt><img src="./theme-song/img/ed1.jpg" alt="世界が終わるまではのジャケット" /></dt>
-          <dd>1期ED　世界が終わるまでは</dd>
-          <dd>WANDS</dd>
+        <dl class="data">
+          <div>
+            <dt>作者</dt>
+            <dd>井上雄彦</dd>
+          </div>
+          <div>
+            <dt>出版社</dt>
+            <dd>集英社</dd>
+          </div>
+          <div>
+            <dt>掲載誌</dt>
+            <dd>週刊少年ジャンプ</dd>
+          </div>
+          <div>
+            <dt>レーベル</dt>
+            <dd>ジャンプ・コミックス</dd>
+          </div>
+          <div>
+            <dt>発表号</dt>
+            <dd>1990年42号・1996年27号</dd>
+          </div>
+          <div>
+            <dt>発表期間</dt>
+            <dd>1990年10月1日・1996年6月17日</dd>
+          </div>
+          <div>
+            <dt>巻数</dt>
+            <dd>全31巻</dd>
+          </div>
+          <div>
+            <dt>完全版</dt>
+            <dd>全24巻</dd>
+          </div>
+          <div>
+            <dt>新装再編版</dt>
+            <dd>全20巻</dd>
+          </div>
+          <div>
+            <dt>話数</dt>
+            <dd>全276話</dd>
+          </div>
         </dl>
-        <p><a href="./theme-song/ending.html">エンディングの詳細ページへ</a></p>
-      </section>
-    </article>
-  </main>
+      </article>
+      <article class="theme-song">
+        <h2 class="title">主題歌</h2>
+        <section>
+          <h3>OPENING</h3>
+          <div class="theme-song-cont">
+            <dl>
+              <dt><img src="./theme-song/img/op1.jpg" alt="君が好きだと叫びたいのジャケット" /></dt>
+              <dd>1期OP　君が好きだと叫びたい</dd>
+              <dd>BAAD</dd>
+            </dl>
+            <dl class="pc-song">
+              <dt><img src="./theme-song/img/op1.jpg" alt="君が好きだと叫びたいのジャケット" /></dt>
+              <dd>1期OP　君が好きだと叫びたい</dd>
+              <dd>BAAD</dd>
+            </dl>
+          </div>
+          <p><a href="./theme-song/opening.html">オープニングの詳細ページへ</a></p>
+        </section>
+        <section>
+          <h3>ENDING</h3>
+          <div class="theme-song-cont">
+            <dl>
+              <dt><img src="./theme-song/img/ed1.jpg" alt="世界が終わるまではのジャケット" /></dt>
+              <dd>1期ED　世界が終わるまでは</dd>
+              <dd>WANDS</dd>
+            </dl>
+            <dl class="pc-song">
+              <dt><img src="./theme-song/img/ed1.jpg" alt="世界が終わるまではのジャケット" /></dt>
+              <dd>1期ED　世界が終わるまでは</dd>
+              <dd>WANDS</dd>
+            </dl>
+          </div>
+          <p><a href="./theme-song/ending.html">エンディングの詳細ページへ</a></p>
+        </section>
+      </article>
+    </main>
+  </div>
   <footer>
-    <p><small>&copy;井上雄彦/集英社・「Slum Dunk」製作委員会</small></p>
+    <small>&copy;井上雄彦/集英社・「Slum Dunk」製作委員会</small>
   </footer>
 </body>
 </html>

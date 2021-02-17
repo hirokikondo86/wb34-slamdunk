@@ -3,85 +3,182 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./../../css/destyle.css" />
-  <link rel="stylesheet" href="./../../css/common.css" />
+  <link rel="stylesheet" href="../../css/destyle.css" />
+  <link rel="stylesheet" href="../../css/common.css" />
+  <link rel="stylesheet" href="../../css/header.css" />
   <link rel="stylesheet" href="./css/common.css" />
   <title>SLAM DUNK | オープニング</title>
 </head>
 <body>
-  <header>
-    <p><img src="../../img/utils/logo.png" alt="スラムダンクのロゴ画像" width="100" /></p>
-  </header>
-  <!-- グローバルナビゲーション -->
-  <nav id="globalNav">
-    <dl>
-      <div>
-        <dt><a href="../detail.html">作品概要</a></dt>
-        <dd><a href="./opening.html">オープニング</a></dd>
-        <dd><a href="./ending.html">エンディング</a></dd>
-        <dt class="none">作品紹介</dt>
-        <dd><a href="../character/index.html">キャラクター紹介</a></dt>
-        <dd><a href="../best-game/index.html">名試合</a></dd>
-        <dd><a href="../best-scene/index.html">名場面</a></dd>
-        <dd><a href="../best-serif-rank/index.html">名言ランキング</a></dd>
-        <dd><a href="../../sanctuary/index.html">聖地</a></dd>
+  <div class="container">
+    <header class="header">
+      <div class="header__cont">
+        <a href="/">
+          <img class="header__cont__logo" src="../../img/logo.png" alt="ロゴ" />
+        </a>
+
+        <input id="hamb" class="header__cont__checkbox" type="checkbox" />
+        <label class="header__cont__menu-btn" for="hamb"><span></span></label>
+
+        <nav class="header__cont__nav drawer-menu">
+          <a href="/">
+            <img class="drawer-menu__logo" src="../../img/logo2.png" alt="ロゴ" />
+          </a>
+          <ul class="drawer-menu__list">
+            <li class="drawer-menu__list__item">
+              <a href="/product/detail/index.html">作品概要</a>
+            </li>
+            <li
+              class="drawer-menu__list__item drawer-menu__list__item--right"
+            >
+              <a href="/product/theme-song/opening.html">オープニング</a>
+            </li>
+            <li
+              class="drawer-menu__list__item drawer-menu__list__item--right"
+            >
+              <a href="/product/theme-song/ending.html">エンディング</a>
+            </li>
+            <li class="drawer-menu__list__item">
+              <a href="/product/character/index.html">キャラクター紹介</a>
+            </li>
+            <li class="drawer-menu__list__item">
+              <a href="/product/best-game/index.html">名試合</a>
+            </li>
+            <li class="drawer-menu__list__item">
+              <a href="/product/index.html">名場面</a>
+            </li>
+            <li class="drawer-menu__list__item">
+              <a href="/product/best-serif-rank/index.html">名言</a>
+            </li>
+            <li class="drawer-menu__list__item">
+              <a href="/sanctuary/index.html">聖地</a>
+            </li>
+          </ul>
+          <div class="drawer-menu__bb" href="/">
+            <img
+              class="drawer-menu__bb__img"
+              src="../../img/bb.png"
+              alt="バスケットボール"
+            />
+          </div>
+          <div class="drawer-menu__bb2" href="/">
+            <img
+              class="drawer-menu__bb2__img"
+              src="../../img/bb2.png"
+              alt="バスケットボール"
+            />
+          </div>
+          <label class="drawer__cont__back" for="hamb"></label>
+        </nav>
       </div>
-    </dl>
-  </nav>
-  <main>
-    <h1 class="none">スラムダンクのオープニング紹介ページ</h1>
-    <article>
-      <h2><span>君が好きだと叫びたい</span></h2>
-      <p class="jacket"><img src="./img/op1.jpg" alt="君が好きだと叫びたいのジャケット" /></p>
-      <section>
-        <h3>楽曲紹介</h3>
-        <dl>
-          <div>
-            <dt>歌手名</dt>
-            <dd>BAAD</dd>
-          </div>
-          <div>
-            <dt>作詞</dt>
-            <dd>BAAD</dd>
-          </div>
-          <div>
-            <dt>作曲</dt>
-            <dd>BAAD</dd>
-          </div>
-        </dl>
-        <p class="lyric">
-          "世界が終わるまでは 離れる事もない<br>
-          そう願っていた 幾千の夜と"
-        </p>
-        <p class="description">
-          第１期オープニングテーマに起用された。BAAD最大のヒット曲。<br />
-          アニメの次回予告ではこの曲のインストが使われ、オープニングテーマ曲が第２期になっても使用された。
-        </p>
-      </section>
-      <section class="music-player">
-        <h3 class="none">再生プレイヤー</h3>
-        <dl>
-          <div>
-            <dt><img src="./img/apple-music.png" alt="apple music" /></dt>
-            <dd>Apple Music</dd>
-            <dd><a href="https://music.apple.com/jp/artist/baad/1451986566" target="_blank"><img src="./img/play-btn.png" alt="再生ボタン" /></a></dd>
-          </div>
-          <div>
-            <dt><img src="./img/youtube.png" alt="YouTube" /></dt>
-            <dd>YouTube</dd>
-            <dd><a href="https://www.youtube.com/results?search_query=%E5%90%9B%E3%81%8C%E5%A5%BD%E3%81%8D%E3%81%A0%E3%81%A8%E5%8F%AB%E3%81%B3%E3%81%9F%E3%81%84" target="_blank"><img src="./img/play-btn.png" alt="再生ボタン" /></a></dd>
-          </div>
-          <div>
-            <dt><img src="./img/spotify.png" alt="spotify" /></dt>
-            <dd>Spotify</dd>
-            <dd><a href="https://open.spotify.com/album/5TtW3IybfqTHDlu2CRpQpW?highlight=spotify:track:3a9QxfogCKSJznbUI0BcU4" target="_blank"><img src="./img/play-btn.png" alt="再生ボタン" /></a></dd>
-          </div>
-        </dl>
-      </section>
-    </article>
-  </main>
-  <footer>
-    <p><small>&copy;井上雄彦/集英社・「Slum Dunk」製作委員会</small></p>
+    </header>
+    <main class="main">
+      <p class="main__ttl">opening</p>
+      <h1 class="none">スラムダンクのオープニング紹介ページ</h1>
+      <div class="main__cont">
+        <article>
+          <h2><span>君が好きだと叫びたい</span></h2>
+          <p class="jacket"><img src="./img/op1.jpg" alt="君が好きだと叫びたいのジャケット" /></p>
+          <section>
+            <h3>楽曲紹介</h3>
+            <dl>
+              <div>
+                <dt>歌手名</dt>
+                <dd>BAAD</dd>
+              </div>
+              <div>
+                <dt>作詞</dt>
+                <dd>BAAD</dd>
+              </div>
+              <div>
+                <dt>作曲</dt>
+                <dd>BAAD</dd>
+              </div>
+            </dl>
+            <p class="lyric">
+              "世界が終わるまでは 離れる事もない<br>
+              そう願っていた 幾千の夜と"
+            </p>
+            <p class="description">
+              第１期オープニングテーマに起用された。BAAD最大のヒット曲。<br />
+              アニメの次回予告ではこの曲のインストが使われ、オープニングテーマ曲が第２期になっても使用された。
+            </p>
+          </section>
+          <section class="music-player">
+            <h3 class="none">再生プレイヤー</h3>
+            <dl>
+              <div>
+                <dt><img src="./img/apple-music.png" alt="apple music" /></dt>
+                <dd>Apple Music</dd>
+                <dd><a href="https://music.apple.com/jp/artist/baad/1451986566" target="_blank"><img src="./img/play-btn.png" alt="再生ボタン" /></a></dd>
+              </div>
+              <div>
+                <dt><img src="./img/youtube.png" alt="YouTube" /></dt>
+                <dd>YouTube</dd>
+                <dd><a href="https://www.youtube.com/results?search_query=%E5%90%9B%E3%81%8C%E5%A5%BD%E3%81%8D%E3%81%A0%E3%81%A8%E5%8F%AB%E3%81%B3%E3%81%9F%E3%81%84" target="_blank"><img src="./img/play-btn.png" alt="再生ボタン" /></a></dd>
+              </div>
+              <div>
+                <dt><img src="./img/spotify.png" alt="spotify" /></dt>
+                <dd>Spotify</dd>
+                <dd><a href="https://open.spotify.com/album/5TtW3IybfqTHDlu2CRpQpW?highlight=spotify:track:3a9QxfogCKSJznbUI0BcU4" target="_blank"><img src="./img/play-btn.png" alt="再生ボタン" /></a></dd>
+              </div>
+            </dl>
+          </section>
+        </article>
+        <article>
+          <h2><span>君が好きだと叫びたい</span></h2>
+          <p class="jacket"><img src="./img/op1.jpg" alt="君が好きだと叫びたいのジャケット" /></p>
+          <section>
+            <h3>楽曲紹介</h3>
+            <dl>
+              <div>
+                <dt>歌手名</dt>
+                <dd>BAAD</dd>
+              </div>
+              <div>
+                <dt>作詞</dt>
+                <dd>BAAD</dd>
+              </div>
+              <div>
+                <dt>作曲</dt>
+                <dd>BAAD</dd>
+              </div>
+            </dl>
+            <p class="lyric">
+              "世界が終わるまでは 離れる事もない<br>
+              そう願っていた 幾千の夜と"
+            </p>
+            <p class="description">
+              第１期オープニングテーマに起用された。BAAD最大のヒット曲。<br />
+              アニメの次回予告ではこの曲のインストが使われ、オープニングテーマ曲が第２期になっても使用された。
+            </p>
+          </section>
+          <section class="music-player">
+            <h3 class="none">再生プレイヤー</h3>
+            <dl>
+              <div>
+                <dt><img src="./img/apple-music.png" alt="apple music" /></dt>
+                <dd>Apple Music</dd>
+                <dd><a href="https://music.apple.com/jp/artist/baad/1451986566" target="_blank"><img src="./img/play-btn.png" alt="再生ボタン" /></a></dd>
+              </div>
+              <div>
+                <dt><img src="./img/youtube.png" alt="YouTube" /></dt>
+                <dd>YouTube</dd>
+                <dd><a href="https://www.youtube.com/results?search_query=%E5%90%9B%E3%81%8C%E5%A5%BD%E3%81%8D%E3%81%A0%E3%81%A8%E5%8F%AB%E3%81%B3%E3%81%9F%E3%81%84" target="_blank"><img src="./img/play-btn.png" alt="再生ボタン" /></a></dd>
+              </div>
+              <div>
+                <dt><img src="./img/spotify.png" alt="spotify" /></dt>
+                <dd>Spotify</dd>
+                <dd><a href="https://open.spotify.com/album/5TtW3IybfqTHDlu2CRpQpW?highlight=spotify:track:3a9QxfogCKSJznbUI0BcU4" target="_blank"><img src="./img/play-btn.png" alt="再生ボタン" /></a></dd>
+              </div>
+            </dl>
+          </section>
+        </article>
+      </div>
+    </main>
+  </div>
+  <footer class="footer">
+    <small>&copy;井上雄彦/集英社・「Slum Dunk」製作委員会</small>
   </footer>
 </body>
 </html>
