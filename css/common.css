@@ -373,3 +373,24 @@ a {
   white-space: nowrap;
   overflow: hidden;
 }
+
+header img{
+  width: 40%;
+}
+@media (min-width: 960px){
+  header img{
+    width: 25%;
+  }
+}
+
+footer{
+  color: white;
+  padding: 20px;
+  margin-top: 50px;
+  text-align: center;
+  background-color: #D02A2A;
+}
+footer p{
+  font-size: 4vw;
+  letter-spacing: 2px;
+}
