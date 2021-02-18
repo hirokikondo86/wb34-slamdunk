@@ -110,6 +110,10 @@ main article .sanno {
   border-bottom: solid #228DEF 3px;
 }
 
+.drawer-menu__bb2 {
+  width: auto;
+}
+
 /***** Mobile *****/
 @media screen and (max-width: 960px) {
   .main__ttl {
