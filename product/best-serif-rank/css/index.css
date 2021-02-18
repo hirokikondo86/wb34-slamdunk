@@ -2,6 +2,16 @@
     .wrapper-center{
         width: 95%;
     }
+    .main__ttl {
+        
+        margin: 2rem 0;
+        margin-top: 70px;
+        font-size: 3rem;
+        font-weight: bold;
+        color: #c4c4c4;
+        text-align: right;
+        text-transform: uppercase;
+    }
 
     .best3_frame {
         line-height: 30px;
@@ -10,9 +20,10 @@
         text-align: center;
     }
     main {
+        margin-top: 150px;
         width: 95%;
         margin: 0 auto;
-        max-width: ;
+        
     }
     p {
         margin-bottom: 50px;
