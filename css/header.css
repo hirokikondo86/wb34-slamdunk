@@ -136,6 +136,7 @@
 /***** Desktop *****/
 @media screen and (min-width: 960px) {
   .header {
+    position: fixed;
     width: 350px;
     height: 100%;
   }
