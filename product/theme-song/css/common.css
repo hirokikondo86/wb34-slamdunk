@@ -1,10 +1,20 @@
-html, body {
-  font-size: 62.5%;
+.main {
+  margin-bottom: 5rem;
 }
-
+.main__ttl {
+  margin: 2rem 0;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #c4c4c4;
+  text-align: right;
+  text-transform: uppercase;
+}
+.jacket {
+  margin-bottom: 20px;
+}
 h2 {
   width: 100%;
-  font-size: 2rem;
+  font-size: 1.5rem;
   border-top: solid #000000 1px;
   border-bottom: solid #000000 1px;
   margin: auto;
@@ -19,9 +29,6 @@ h2 span {
   margin: 5px 0;
 }
 
-.jacket {
-  margin-bottom: 20px;
-}
 article img {
   width: 100%;
 }
@@ -29,7 +36,8 @@ section {
   margin-bottom: 20px;
 }
 section h3 {
-  font-size: 1.8rem;
+  font-size: 1.2rem;
+
   border-bottom: solid #BB5535 1px;
   padding-bottom: 5px;
   margin-bottom: 10px;
@@ -38,7 +46,7 @@ section dl {
   margin-bottom: 10px;
 }
 section dl div {
-  font-size: 1.6rem;
+  /* font-size: 1.6rem; */
   display: flex;
   margin-bottom: 5px;
 
@@ -47,18 +55,18 @@ section dl dt {
   min-width: 75px;
 }
 .lyric {
-  font-size: 1.6rem;
+  /* font-size: 1.6rem; */
   text-align: center;
   background-color: #F2F2F2;
   padding: 10px 0;
   margin-bottom: 15px;
 }
 .description {
-  font-size: 1.6rem;
+  /* font-size: 1.6rem; */
 }
 
 .music-player {
-  font-size: 1.6rem;
+  /* font-size: 1.6rem; */
 }
 .music-player dl div {
   background-color: #F3F3F3;
@@ -75,3 +83,38 @@ section dl dt {
 .none {
   display: none;
 }
+
+/* moblie */
+@media screen and (max-width: 960px) {
+
+}
+/* desktop */
+@media screen and (min-width: 960px) {
+  .main {
+    margin-left: 350px;
+  }
+  .container {
+    display: flex;
+  }
+  .main__ttl {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+  .main__cont {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main__cont article {
+    width: 50%;
+    margin: 10px;
+  }
+  article {
+
+  }
+}
+
+/* html, body {
+  font-size: 62.5%;
+} */
+
