@@ -15,11 +15,7 @@
         margin-top: 20px;
         margin-bottom: 10px;
     }
-    main dd:nth-child(2) {
-        font-weight: 600;
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
+    
     main dt img {
         width: 100%;
     }
@@ -37,4 +33,10 @@
         text-align: center;
         letter-spacing: 1px;
     }
+    .battle{
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
 }
