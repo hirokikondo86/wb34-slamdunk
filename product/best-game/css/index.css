@@ -1,0 +1,42 @@
+@media screen and (max-width:960px) {
+    main h1 {
+        border-bottom: solid #D02A2A 3px;
+        padding: 1% 3%;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .main-wrapper {
+        width: 95%;
+        margin: 0 auto;
+        
+    }
+    dt {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    main dt img {
+        width: 100%;
+    }
+    .button {
+        background-color: #D02A2A;
+        height: 50px;
+        line-height: 50px;
+        font-weight: 600;
+        width: 70%;
+        color: #fff;
+        font-size: 14px;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    .battle{
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+}
