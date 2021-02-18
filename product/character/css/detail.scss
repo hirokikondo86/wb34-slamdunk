@@ -2,7 +2,6 @@
 
 *{
   width: 100%;
-  font-size: 4.3vw;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -57,9 +56,6 @@ main{
 }
 
 @media (min-width: 960px){
-  *{
-    font-size: 2vw;
-  }
   main{
     width: 35%;
     padding: 7% 2% 1% 1%;

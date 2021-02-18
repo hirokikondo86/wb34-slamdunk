@@ -1,7 +1,6 @@
 * {
   width: 100%;
   margin: auto;
-  font-size: 4.3vw;
   scroll-behavior: smooth;
   font-family: 'Roboto', sans-serif;
 }
@@ -122,10 +121,6 @@ main article .sanno {
 }
 
 @media (min-width: 960px) {
-  * {
-    font-size: 2vw;
-  }
-
   main {
     width: 67%;
     padding-right: 2%;
