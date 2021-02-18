@@ -110,6 +110,9 @@ article .description {
 }
 /* desktop */
 @media screen and (min-width: 960px) {
+  .main {
+    margin-left: 350px;
+  }
   .container {
     display: flex;
   }
