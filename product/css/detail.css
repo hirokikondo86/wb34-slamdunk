@@ -1,29 +1,29 @@
-html, body {
+/* html, body {
   font-size: 64.5%;
-}
-
-/* main {
-  background-image: url("../img/background1.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-
 } */
 
-article h2 {
-  font-size: 2rem;
-  font-weight: bold;
-  border-bottom: solid #BB5535 1px;
-  padding: 10px 5px;
-  margin-bottom: 10px;
+.main {
+  margin-bottom: 5rem;
 }
-article .description {
-  font-size: 1.6rem;
+.main__ttl {
+  margin: 2rem 0;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #c4c4c4;
+  text-align: right;
+  text-transform: uppercase;
+}
+article {
   margin-bottom: 20px;
 }
 
-.award {
-  font-size: 1.4rem;
+article h2 {
+  margin-bottom: 10px;
 }
+article .description {
+  margin-bottom: 20px;
+}
+
 .award dt, .award dd {
   margin-bottom: 10px;
 }
@@ -46,7 +46,6 @@ article .description {
   margin-bottom: 10px;
 }
 .data dt, .data dd {
-  font-size: 1.3rem;
   padding: 10px 0;
 }
 .data dt {
@@ -81,12 +80,12 @@ article .description {
 }
 .theme-song section dd {
   text-align: center;
-  font-size: 1.4rem;
+  /* font-size: 1.4rem; */
 }
 
 .theme-song p {
   width: 90%;
-  font-size: 1.4rem;
+  /* font-size: 1.4rem; */
   text-align: center;
   background-color: #D02A2A;
   margin: auto;
@@ -100,4 +99,43 @@ article .description {
 }
 .theme-song a::after {
   content: " > ";
+}
+
+
+/* moblie */
+@media screen and (max-width: 960px) {
+  .pc-song {
+    display: none;
+  }
+}
+/* desktop */
+@media screen and (min-width: 960px) {
+  .main {
+    margin-left: 350px;
+  }
+  .container {
+    display: flex;
+  }
+  .main__ttl {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+  article .description {
+    font-size: 1.1rem;
+  }
+  .data {
+    width: 70%;
+  }
+  .theme-song-cont {
+    display: flex;
+    justify-content: space-between;
+  }
+  .theme-song-cont dl {
+    width: 50%;
+    margin: 10px;
+  }
+  .theme-song p {
+    width: 50%;
+  }
 }
