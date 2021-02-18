@@ -3,20 +3,10 @@
 *{
   width: 100%;
   margin: auto;
-  font-size: 4.3vw;
   scroll-behavior: smooth;
   font-family: 'Roboto', sans-serif;
 }
 
-h1{
-  opacity: 0.4;
-  font-size: 6vw;
-  text-align: right;
-  font-weight: bolder;
-  letter-spacing: 2px;
-  margin-bottom: 20px;
-  padding: 20px 20px 0 0;
-}
 main{
   width: 95%;
   nav{
@@ -123,10 +113,30 @@ main{
     }
   }
 }
+.drawer-menu__bb2 {
+  width: auto;
+}
+/***** Mobile *****/
+@media screen and (max-width: 960px) {
+  .main__ttl {
+    margin: 2rem 0;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #c4c4c4;
+    text-align: right;
+    text-transform: uppercase;
+  }
+}
 
-@media (min-width: 960px){
-  *{
-    font-size: 2vw;
+@media screen and (min-width: 960px){
+  .main__ttl {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #c4c4c4;
+    text-align: right;
+    text-transform: uppercase;
   }
   main{
     width: 67%;
@@ -142,10 +152,10 @@ main{
             padding: 16px 31%;
           }
           .longer{
-            padding: 16px 21.7%;
+            padding: 16px 23.5%;
           }
           .longest{
-            padding: 16px 17%;
+            padding: 16px 20%;
           }
         }
       }

@@ -405,7 +405,8 @@ footer {
   text-align: center;
   background-color: #d02a2a;
 }
-footer p {
-  font-size: 4vw;
+
+footer p{
+  font-size: 2vw;
   letter-spacing: 2px;
 }
