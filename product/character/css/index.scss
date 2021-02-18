@@ -7,15 +7,6 @@
   font-family: 'Roboto', sans-serif;
 }
 
-h1{
-  opacity: 0.4;
-  font-size: 6vw;
-  text-align: right;
-  font-weight: bolder;
-  letter-spacing: 2px;
-  margin-bottom: 20px;
-  padding: 20px 20px 0 0;
-}
 main{
   width: 95%;
   nav{
@@ -120,6 +111,29 @@ main{
       border-top: solid #228DEF 3px;
       border-bottom: solid #228DEF 3px;
     }
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .main__ttl {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #c4c4c4;
+    text-align: right;
+    text-transform: uppercase;
+  }
+}
+/***** Mobile *****/
+@media screen and (max-width: 960px) {
+  .main__ttl {
+    margin: 2rem 0;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #c4c4c4;
+    text-align: right;
+    text-transform: uppercase;
   }
 }
 
