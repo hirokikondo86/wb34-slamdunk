@@ -6,9 +6,10 @@
         font-weight: 600;
         margin-bottom: 20px;
     }
-    .globalNav {
+    .main-wrapper {
         width: 95%;
         margin: 0 auto;
+        
     }
     dt {
         margin-top: 20px;
