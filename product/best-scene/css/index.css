@@ -1,3 +1,12 @@
+.none {
+    display: none;
+}
+
+.best-scene {
+    width: 90%;
+    margin: 0 auto;
+}
+
 .content {
     width: 90%;
     margin: 0 auto;
@@ -26,9 +35,20 @@
     right: 10px;
 }
 
+.main__ttl {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #c4c4c4;
+    text-align: right;
+    text-transform: uppercase;
+}
+
 @media(min-width:960px) {
     main {
         width: 75%;
+        margin-left: 22.5%;
     }
     dl {
         display: flex;
@@ -36,7 +56,21 @@
         flex-wrap: wrap;
         align-items: baseline;
     }
+    .scene-title {
+        font-size: 1.8rem;
+        position: relative;
+        bottom: 35px;
+        right: 10px;
+    }
     .content {
         width: 48%;
+    }
+    .main__ttl {
+        margin: 2rem 0;
+        font-size: 3rem;
+        font-weight: bold;
+        color: #c4c4c4;
+        text-align: right;
+        text-transform: uppercase;
     }
 }
