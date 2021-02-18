@@ -14,7 +14,7 @@
 </head>
 <body>
   <header>
-    <p><img src="./img/utils/logo.png" alt="スラムダンクのロゴ画像" width="100"></p>
+    <p id="globalNav"><img src="./img/utils/logo.png" alt="スラムダンクのロゴ画像" width="100"></p>
   </header>
   <!-- グローバルナビゲーション -->
   <nav id="globalNav">
@@ -36,6 +36,7 @@
   <main>
     <h1 id="background_member" class="hidden">湘北スタメン5人</h1>
   <aside>
+    <div>
     <section class="first_new_news">
       <h3>スラムダンク最新情報</h3>
       <dl>
@@ -72,10 +73,11 @@
       <section class="name">
         <h3>名場面</h3>
         <!-- 名場面の画像をcssで表示, スライドショー -->
-        <ul class="slider">
-          <li><a href="#"><img src="./img/sakuragi.png" alt="image01"></a></li>
-          <li><a href="#"><img src="./img/member5.png" alt="image02"></a></li>
-          <li><a href="#"><img src="./img/sakuragi.png" alt="image01"></a></li>
+        <ul class="slider" class="multiple-items">
+          <li><a href="#"><img src="./img/MaskGroup.png" alt="image01"></a></li>
+          <li><a href="#"><img src="./img/MaskGroup.png" alt="image01"></a></li>
+          <li><a href="#"><img src="./img/MaskGroup.png" alt="image01"></a></li>
+          
         </ul>
         <p><a href="./product/best-scene/index.html">名場面ページへ　＞</a></p>
       </section>
@@ -100,8 +102,9 @@
         <p><a href="./product/best-serif-rank/index.html">名言ランキングページへ　＞</a></p>
       </section>
     </article>
+  </div>
   </main>
-  <footer>
+  <footer id="globalNav">
     <p><small>&copy;井上雄彦/集英社・「Slum Dunk」製作委員会</small></p>
   </footer>
   <script src="js/index.js"></script>

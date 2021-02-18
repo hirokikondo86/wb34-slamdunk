@@ -1,19 +1,86 @@
 .main {
   margin-bottom: 5rem;
 }
-.fixme {
-  width: 100%;
+
+/***** Mobile *****/
+@media screen and (max-width: 960px) {
+  .main__ttl {
+    margin: 2rem 0;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #c4c4c4;
+    text-align: right;
+    text-transform: uppercase;
+  }
+}
+
+/***** Desktop *****/
+@media (min-width: 960px) {
+  .main__title {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #c4c4c4;
+    text-align: right;
+    text-transform: uppercase;
+  }
 }
 
 .main__item {
   position: relative;
   box-shadow: inset 0px -30px 20px -5px rgba(255, 255, 255);
-  width: 100%;
-  height: 220px;
+  margin: auto;
   margin-top: 2rem;
   border: 1px solid;
   cursor: pointer;
+  width: 100%;
+  max-width: 750px;
 }
+
+@media screen and (min-width: 960px) {
+  .container {
+    display: flex;
+  }
+  .link-wrap {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .main__item {
+    width: 440px;
+  }
+  .main__ttl {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #c4c4c4;
+    text-align: right;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main__item {
+    height: 220px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  .main__item {
+    height: 350px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .main__item {
+    height: 400px;
+  }
+}
+
 .main__item::before {
   position: absolute;
   content: "";

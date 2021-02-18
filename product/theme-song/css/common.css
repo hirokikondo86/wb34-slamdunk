@@ -1,0 +1,77 @@
+html, body {
+  font-size: 62.5%;
+}
+
+h2 {
+  width: 100%;
+  font-size: 2rem;
+  border-top: solid #000000 1px;
+  border-bottom: solid #000000 1px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+h2 span {
+  display: block;
+  text-align: center;
+  color: white;
+  background-color: #D02A2A;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.jacket {
+  margin-bottom: 20px;
+}
+article img {
+  width: 100%;
+}
+section {
+  margin-bottom: 20px;
+}
+section h3 {
+  font-size: 1.8rem;
+  border-bottom: solid #BB5535 1px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+section dl {
+  margin-bottom: 10px;
+}
+section dl div {
+  font-size: 1.6rem;
+  display: flex;
+  margin-bottom: 5px;
+
+}
+section dl dt {
+  min-width: 75px;
+}
+.lyric {
+  font-size: 1.6rem;
+  text-align: center;
+  background-color: #F2F2F2;
+  padding: 10px 0;
+  margin-bottom: 15px;
+}
+.description {
+  font-size: 1.6rem;
+}
+
+.music-player {
+  font-size: 1.6rem;
+}
+.music-player dl div {
+  background-color: #F3F3F3;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+
+}
+.music-player dl img {
+  width: 50px;
+}
+.none {
+  display: none;
+}

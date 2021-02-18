@@ -3,11 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./../../css/destyle.css" />
+  <link rel="stylesheet" href="./../../css/common.css" />
+  <link rel="stylesheet" href="./css/common.css" />
   <title>SLAM DUNK | エンディング</title>
 </head>
 <body>
   <header>
-    <p><img src="../../img/utils/logo.png" alt="スラムダンクのロゴ画像"></p>
+    <p><img src="../../img/utils/logo.png" alt="スラムダンクのロゴ画像" width="100"></p>
   </header>
   <!-- グローバルナビゲーション -->
   <nav id="globalNav">
@@ -28,7 +31,8 @@
   <main>
     <h1 class="none">スラムダンクのエンディング紹介ページ</h1>
     <article>
-      <h2>世界が終わるまでは</h2>
+      <h2><span>世界が終わるまでは</span></h2>
+      <p class="jacket"><img src="./img/ed1.jpg" alt="世界が終わるまでは" /></p>
       <section>
         <h3>楽曲紹介</h3>
         <dl>
@@ -45,23 +49,35 @@
             <dd>WANDS</dd>
           </div>
         </dl>
-        <p>
+        <p class="lyric">
           "世界が終わるまでは 離れる事もない<br>
           そう願っていた 幾千の夜と"
         </p>
-        <p>
+        <p class="description">
           WANDSの8thシングル『世界が終るまでは…』は、第25話から49話までのED曲として起用されました。<br>
           イントロのギターフレーズがかっこいいロックナンバー。<br>
           クールで力強いボーカルが、男臭くも爽やかな青春を感じさせる楽曲です。
         </p>
       </section>
-      <section>
-        <h3>再生プレイヤー</h3>
-        <ul>
-          <li><audio src="" controls></audio></li>
-          <li><audio src="" controls></audio></li>
-          <li><audio src="" controls></audio></li>
-        </ul>
+      <section class="music-player">
+        <h3 class="none">再生プレイヤー</h3>
+        <dl>
+          <div>
+            <dt><img src="./img/apple-music.png" alt="apple music" /></dt>
+            <dd>Apple Music</dd>
+            <dd><a href="https://music.apple.com/jp/album/best-of-wands-history/75466337" target="_blank"><img src="./img/play-btn.png" alt="再生ボタン" /></a></dd>
+          </div>
+          <div>
+            <dt><img src="./img/youtube.png" alt="YouTube" /></dt>
+            <dd>YouTube</dd>
+            <dd><a href="https://www.youtube.com/results?search_query=%E4%B8%96%E7%95%8C%E3%81%8C%E7%B5%82%E3%82%8F%E3%82%8B%E3%81%BE%E3%81%A7%E3%81%AF" target="_blank"><img src="./img/play-btn.png" alt="再生ボタン" /></a></dd>
+          </div>
+          <div>
+            <dt><img src="./img/spotify.png" alt="spotify" /></dt>
+            <dd>Spotify</dd>
+            <dd><a href="https://open.spotify.com/album/1cIgDphXxGxw1ZYk21ogIf?highlight=spotify:track:4o59DHKSWaJlUGcC8SyrCg" target="_blank"><img src="./img/play-btn.png" alt="再生ボタン" /></a></dd>
+          </div>
+        </dl>
       </section>
     </article>
   </main>

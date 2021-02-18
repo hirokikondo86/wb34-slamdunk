@@ -1,8 +1,11 @@
 
 $(function(){
     $('.slider').slick({
-        autoplay:false,
+        autoplay:true,
         autoplaySpeed:1000,
         dots:true,
+        centerMode: true,
+        centerPadding: '32%',
+
     });
 });

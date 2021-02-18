@@ -6,72 +6,112 @@
     <title>SLAM DUNK | 聖地詳細</title>
     <link rel="stylesheet" href="../../css/destyle.css" />
     <link rel="stylesheet" href="../../css/common.css" />
+    <link rel="stylesheet" href="../../css/header.css" />
     <link rel="stylesheet" href="css/detail.css" />
   </head>
   <body>
-    <header>
-      <img
-        class="fixme"
-        src="../../img/utils/logo.png"
-        alt="スラムダンクのロゴ画像"
-      />
-    </header>
-    <!-- グローバルナビゲーション -->
-    <nav id="globalNav">
-      <dl>
-        <div>
-          <dt><a href="../../product/detail.html">作品概要</a></dt>
-          <dd>
-            <a href="../../product/theme-song/opening.html">オープニング</a>
-          </dd>
-          <dd>
-            <a href="../../product/theme-song/ending.html">エンディング</a>
-          </dd>
-          <dt class="none">作品紹介</dt>
-          <dd>
-            <a href="../../product/character/index.html">キャラクター紹介</a>
-          </dd>
-          <dd><a href="../../product/best-game/index.html">名試合</a></dd>
-          <dd><a href="../../product/index.html">名場面</a></dd>
-          <dd>
-            <a href="../../product/best-serif-rank/index.html"
-              >名言ランキング</a
-            >
-          </dd>
-          <dd><a href="../index.html">聖地</a></dd>
+    <div class="container">
+      <header class="header">
+        <div class="header__cont">
+          <a href="/">
+            <img
+              class="header__cont__logo"
+              src="../../img/logo.png"
+              alt="ロゴ"
+            />
+          </a>
+
+          <input id="hamb" class="header__cont__checkbox" type="checkbox" />
+          <label class="header__cont__menu-btn" for="hamb"><span></span></label>
+
+          <nav class="header__cont__nav drawer-menu">
+            <a href="/">
+              <img
+                class="drawer-menu__logo"
+                src="../../img/logo2.png"
+                alt="ロゴ"
+              />
+            </a>
+            <ul class="drawer-menu__list">
+              <li class="drawer-menu__list__item">
+                <a href="/product/detail/index.html">作品概要</a>
+              </li>
+              <li
+                class="drawer-menu__list__item drawer-menu__list__item--right"
+              >
+                <a href="/product/theme-song/opening.html">オープニング</a>
+              </li>
+              <li
+                class="drawer-menu__list__item drawer-menu__list__item--right"
+              >
+                <a href="/product/theme-song/ending.html">エンディング</a>
+              </li>
+              <li class="drawer-menu__list__item">
+                <a href="/product/character/index.html">キャラクター紹介</a>
+              </li>
+              <li class="drawer-menu__list__item">
+                <a href="/product/best-game/index.html">名試合</a>
+              </li>
+              <li class="drawer-menu__list__item">
+                <a href="/product/index.html">名場面</a>
+              </li>
+              <li class="drawer-menu__list__item">
+                <a href="/product/best-serif-rank/index.html">名言</a>
+              </li>
+              <li class="drawer-menu__list__item">
+                <a href="/sanctuary/index.html">聖地</a>
+              </li>
+            </ul>
+            <div class="drawer-menu__bb" href="/">
+              <img
+                class="drawer-menu__bb__img"
+                src="../../img/bb.png"
+                alt="バスケットボール"
+              />
+            </div>
+            <div class="drawer-menu__bb2" href="/">
+              <img
+                class="drawer-menu__bb2__img"
+                src="../../img/bb2.png"
+                alt="バスケットボール"
+              />
+            </div>
+            <label class="drawer__cont__back" for="hamb"></label>
+          </nav>
         </div>
-      </dl>
-    </nav>
-    <main class="main">
-      <h1 class="title">みどり荘</h1>
-      <div class="img">
-        <img
-          class="img__anime"
-          src="../img/fumikiri2.jpg"
-          alt="みどり荘（アニメ版）"
-        />
-        <img class="img__sanc" src="../img/midorisou.jpg" alt="みどり荘" />
-      </div>
-      <div class="desc">
-        <p>
-          湘北がインターハイ出場時に宿泊していたちどり荘は、みどり荘という旅館がモデルになっています。
-        </p>
-        <p>
-          みどり荘は、広島市佐伯区の湯来温泉にある旅館だったのですが、残念ながら2013年に閉館してしまいました。
-        </p>
-      </div>
-      <iframe
-        class="sanc-map"
-        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6586.471559373605!2d132.351004!3d34.369923!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355abb811ecf6eb5%3A0xde9a4c6bf1a818fa!2z44CSNzMxLTUxMjgg5bqD5bO255yM5bqD5bO25biC5L2Q5Lyv5Yy65LqU5pel5biC5Lit5aSu77yT5LiB55uu77yZ4oiS77yV77yU4oiS77yR77ySIOOBv-OBqeOCiuiNmA!5e0!3m2!1sja!2sjp!4v1612437127325!5m2!1sja!2sjp"
-        width="600"
-        height="450"
-        frameborder="0"
-        style="border: 0"
-        allowfullscreen=""
-        aria-hidden="false"
-        tabindex="0"
-      ></iframe>
-    </main>
+      </header>
+      <main class="main">
+        <p class="main__ttl">sanctuary</p>
+        <h1 class="title">みどり荘</h1>
+        <div class="img">
+          <img
+            class="img__anime"
+            src="../img/fumikiri2.jpg"
+            alt="みどり荘（アニメ版）"
+          />
+          <img class="img__sanc" src="../img/midorisou.jpg" alt="みどり荘" />
+        </div>
+        <div class="desc">
+          <p>
+            湘北がインターハイ出場時に宿泊していたちどり荘は、みどり荘という旅館がモデルになっています。
+          </p>
+          <p>
+            みどり荘は、広島市佐伯区の湯来温泉にある旅館だったのですが、残念ながら2013年に閉館してしまいました。
+          </p>
+        </div>
+        <iframe
+          class="sanc-map"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6586.471559373605!2d132.351004!3d34.369923!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355abb811ecf6eb5%3A0xde9a4c6bf1a818fa!2z44CSNzMxLTUxMjgg5bqD5bO255yM5bqD5bO25biC5L2Q5Lyv5Yy65LqU5pel5biC5Lit5aSu77yT5LiB55uu77yZ4oiS77yV77yU4oiS77yR77ySIOOBv-OBqeOCiuiNmA!5e0!3m2!1sja!2sjp!4v1612437127325!5m2!1sja!2sjp"
+          width="600"
+          height="450"
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen=""
+          aria-hidden="false"
+          tabindex="0"
+        ></iframe>
+      </main>
+    </div>
     <footer>
       <small>&copy;井上雄彦/集英社・「Slum Dunk」製作委員会</small>
     </footer>
