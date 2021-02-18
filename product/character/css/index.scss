@@ -114,17 +114,6 @@ main{
   }
 }
 
-@media screen and (min-width: 960px) {
-  .main__ttl {
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    font-size: 3rem;
-    font-weight: bold;
-    color: #c4c4c4;
-    text-align: right;
-    text-transform: uppercase;
-  }
-}
 /***** Mobile *****/
 @media screen and (max-width: 960px) {
   .main__ttl {
@@ -137,7 +126,16 @@ main{
   }
 }
 
-@media (min-width: 960px){
+@media screen and (min-width: 960px){
+  .main__ttl {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #c4c4c4;
+    text-align: right;
+    text-transform: uppercase;
+  }
   main{
     width: 67%;
     padding-right: 2%;
@@ -152,10 +150,10 @@ main{
             padding: 16px 31%;
           }
           .longer{
-            padding: 16px 21.7%;
+            padding: 16px 23.5%;
           }
           .longest{
-            padding: 16px 17%;
+            padding: 16px 20%;
           }
         }
       }

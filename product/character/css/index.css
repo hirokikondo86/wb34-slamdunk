@@ -110,17 +110,6 @@ main article .sanno {
   border-bottom: solid #228DEF 3px;
 }
 
-@media screen and (min-width: 960px) {
-  .main__ttl {
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    font-size: 3rem;
-    font-weight: bold;
-    color: #c4c4c4;
-    text-align: right;
-    text-transform: uppercase;
-  }
-}
 /***** Mobile *****/
 @media screen and (max-width: 960px) {
   .main__ttl {
@@ -132,7 +121,17 @@ main article .sanno {
     text-transform: uppercase;
   }
 }
-@media (min-width: 960px) {
+@media screen and (min-width: 960px) {
+  .main__ttl {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #c4c4c4;
+    text-align: right;
+    text-transform: uppercase;
+  }
+
   main {
     width: 67%;
     padding-right: 2%;
@@ -149,10 +148,10 @@ main article .sanno {
     padding: 16px 31%;
   }
   main nav ul li .longer {
-    padding: 16px 21.7%;
+    padding: 16px 23.5%;
   }
   main nav ul li .longest {
-    padding: 16px 17%;
+    padding: 16px 20%;
   }
   main article .chars {
     display: flex;
