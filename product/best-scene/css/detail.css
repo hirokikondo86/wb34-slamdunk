@@ -1,3 +1,7 @@
+.none {
+    display: none;
+}
+
 .scene-detail {
     width: 90%;
     margin: 0 auto;
@@ -72,15 +76,34 @@
     margin-left: 20px;
 }
 
+.main__ttl {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #c4c4c4;
+    text-align: right;
+    text-transform: uppercase;
+}
+
 @media(min-width:960px) {
     main {
         width: 75%;
+        margin-left: 22.5%;
     }
     .main-image,
     .explain,
     .back-btn {
         margin: 0 auto;
-        margin-top: 25px;
+        margin-top: 70px;
         width: 80%;
+    }
+    .main__ttl {
+        margin: 2rem 0;
+        font-size: 3rem;
+        font-weight: bold;
+        color: #c4c4c4;
+        text-align: right;
+        text-transform: uppercase;
     }
 }

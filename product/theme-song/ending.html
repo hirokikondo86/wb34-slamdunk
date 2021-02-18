@@ -3,86 +3,184 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./../../css/destyle.css" />
-  <link rel="stylesheet" href="./../../css/common.css" />
+  <link rel="stylesheet" href="../../css/destyle.css" />
+  <link rel="stylesheet" href="../../css/common.css" />
+  <link rel="stylesheet" href="../../css/header.css" />
   <link rel="stylesheet" href="./css/common.css" />
   <title>SLAM DUNK | エンディング</title>
 </head>
 <body>
-  <header>
-    <p><img src="../../img/utils/logo.png" alt="スラムダンクのロゴ画像" width="100"></p>
-  </header>
-  <!-- グローバルナビゲーション -->
-  <nav id="globalNav">
-    <dl>
-      <div>
-        <dt><a href="../detail.html">作品概要</a></dt>
-        <dd><a href="./opening.html">オープニング</a></dd>
-        <dd><a href="./ending.html">エンディング</a></dd>
-        <dt class="none">作品紹介</dt>
-        <dd><a href="../character/index.html">キャラクター紹介</a></dt>
-        <dd><a href="../best-game/index.html">名試合</a></dd>
-        <dd><a href="../best-scene/index.html">名場面</a></dd>
-        <dd><a href="../best-serif-rank/index.html">名言ランキング</a></dd>
-        <dd><a href="../../sanctuary/index.html">聖地</a></dd>
+  <div class="container">
+    <header class="header">
+      <div class="header__cont">
+        <a href="/">
+          <img class="header__cont__logo" src="../../img/logo.png" alt="ロゴ" />
+        </a>
+
+        <input id="hamb" class="header__cont__checkbox" type="checkbox" />
+        <label class="header__cont__menu-btn" for="hamb"><span></span></label>
+
+        <nav class="header__cont__nav drawer-menu">
+          <a href="/">
+            <img class="drawer-menu__logo" src="../../img/logo2.png" alt="ロゴ" />
+          </a>
+          <ul class="drawer-menu__list">
+            <li class="drawer-menu__list__item">
+              <a href="/product/detail.html">作品概要</a>
+            </li>
+            <li
+              class="drawer-menu__list__item drawer-menu__list__item--right"
+            >
+              <a href="/product/theme-song/opening.html">オープニング</a>
+            </li>
+            <li
+              class="drawer-menu__list__item drawer-menu__list__item--right"
+            >
+              <a href="/product/theme-song/ending.html">エンディング</a>
+            </li>
+            <li class="drawer-menu__list__item">
+              <a href="/product/character/index.html">キャラクター紹介</a>
+            </li>
+            <li class="drawer-menu__list__item">
+              <a href="/product/best-game/index.html">名試合</a>
+            </li>
+            <li class="drawer-menu__list__item">
+              <a href="/product/index.html">名場面</a>
+            </li>
+            <li class="drawer-menu__list__item">
+              <a href="/product/best-serif-rank/index.html">名言</a>
+            </li>
+            <li class="drawer-menu__list__item">
+              <a href="/sanctuary/index.html">聖地</a>
+            </li>
+          </ul>
+          <div class="drawer-menu__bb" href="/">
+            <img
+              class="drawer-menu__bb__img"
+              src="../../img/bb.png"
+              alt="バスケットボール"
+            />
+          </div>
+          <div class="drawer-menu__bb2" href="/">
+            <img
+              class="drawer-menu__bb2__img"
+              src="../../img/bb2.png"
+              alt="バスケットボール"
+            />
+          </div>
+          <label class="drawer__cont__back" for="hamb"></label>
+        </nav>
       </div>
-    </dl>
-  </nav>
-  <main>
-    <h1 class="none">スラムダンクのエンディング紹介ページ</h1>
-    <article>
-      <h2><span>世界が終わるまでは</span></h2>
-      <p class="jacket"><img src="./img/ed1.jpg" alt="世界が終わるまでは" /></p>
-      <section>
-        <h3>楽曲紹介</h3>
-        <dl>
-          <div>
-            <dt>歌手名</dt>
-            <dd>WANDS</dd>
-          </div>
-          <div>
-            <dt>作詞</dt>
-            <dd>WANDS</dd>
-          </div>
-          <div>
-            <dt>作曲</dt>
-            <dd>WANDS</dd>
-          </div>
-        </dl>
-        <p class="lyric">
-          "世界が終わるまでは 離れる事もない<br>
-          そう願っていた 幾千の夜と"
-        </p>
-        <p class="description">
-          WANDSの8thシングル『世界が終るまでは…』は、第25話から49話までのED曲として起用されました。<br>
-          イントロのギターフレーズがかっこいいロックナンバー。<br>
-          クールで力強いボーカルが、男臭くも爽やかな青春を感じさせる楽曲です。
-        </p>
-      </section>
-      <section class="music-player">
-        <h3 class="none">再生プレイヤー</h3>
-        <dl>
-          <div>
-            <dt><img src="./img/apple-music.png" alt="apple music" /></dt>
-            <dd>Apple Music</dd>
-            <dd><a href="https://music.apple.com/jp/album/best-of-wands-history/75466337" target="_blank"><img src="./img/play-btn.png" alt="再生ボタン" /></a></dd>
-          </div>
-          <div>
-            <dt><img src="./img/youtube.png" alt="YouTube" /></dt>
-            <dd>YouTube</dd>
-            <dd><a href="https://www.youtube.com/results?search_query=%E4%B8%96%E7%95%8C%E3%81%8C%E7%B5%82%E3%82%8F%E3%82%8B%E3%81%BE%E3%81%A7%E3%81%AF" target="_blank"><img src="./img/play-btn.png" alt="再生ボタン" /></a></dd>
-          </div>
-          <div>
-            <dt><img src="./img/spotify.png" alt="spotify" /></dt>
-            <dd>Spotify</dd>
-            <dd><a href="https://open.spotify.com/album/1cIgDphXxGxw1ZYk21ogIf?highlight=spotify:track:4o59DHKSWaJlUGcC8SyrCg" target="_blank"><img src="./img/play-btn.png" alt="再生ボタン" /></a></dd>
-          </div>
-        </dl>
-      </section>
-    </article>
-  </main>
+    </header>
+    <main class="main">
+      <p class="main__ttl">ending</p>
+      <h1 class="none">スラムダンクのエンディング紹介ページ</h1>
+      <div class="main__cont">
+        <article>
+          <h2><span>世界が終わるまでは</span></h2>
+          <p class="jacket"><img src="./img/ed1.jpg" alt="世界が終わるまでは" /></p>
+          <section>
+            <h3>楽曲紹介</h3>
+            <dl>
+              <div>
+                <dt>歌手名</dt>
+                <dd>WANDS</dd>
+              </div>
+              <div>
+                <dt>作詞</dt>
+                <dd>WANDS</dd>
+              </div>
+              <div>
+                <dt>作曲</dt>
+                <dd>WANDS</dd>
+              </div>
+            </dl>
+            <p class="lyric">
+              "世界が終わるまでは 離れる事もない<br>
+              そう願っていた 幾千の夜と"
+            </p>
+            <p class="description">
+              WANDSの8thシングル『世界が終るまでは…』は、第25話から49話までのED曲として起用されました。<br>
+              イントロのギターフレーズがかっこいいロックナンバー。<br>
+              クールで力強いボーカルが、男臭くも爽やかな青春を感じさせる楽曲です。
+            </p>
+          </section>
+          <section class="music-player">
+            <h3 class="none">再生プレイヤー</h3>
+            <dl>
+              <div>
+                <dt><img src="./img/apple-music.png" alt="apple music" /></dt>
+                <dd>Apple Music</dd>
+                <dd><a href="https://music.apple.com/jp/album/best-of-wands-history/75466337" target="_blank"><img src="./img/play-btn.png" alt="再生ボタン" /></a></dd>
+              </div>
+              <div>
+                <dt><img src="./img/youtube.png" alt="YouTube" /></dt>
+                <dd>YouTube</dd>
+                <dd><a href="https://www.youtube.com/results?search_query=%E4%B8%96%E7%95%8C%E3%81%8C%E7%B5%82%E3%82%8F%E3%82%8B%E3%81%BE%E3%81%A7%E3%81%AF" target="_blank"><img src="./img/play-btn.png" alt="再生ボタン" /></a></dd>
+              </div>
+              <div>
+                <dt><img src="./img/spotify.png" alt="spotify" /></dt>
+                <dd>Spotify</dd>
+                <dd><a href="https://open.spotify.com/album/1cIgDphXxGxw1ZYk21ogIf?highlight=spotify:track:4o59DHKSWaJlUGcC8SyrCg" target="_blank"><img src="./img/play-btn.png" alt="再生ボタン" /></a></dd>
+              </div>
+            </dl>
+          </section>
+        </article>
+        <article>
+          <h2><span>世界が終わるまでは</span></h2>
+          <p class="jacket"><img src="./img/ed1.jpg" alt="世界が終わるまでは" /></p>
+          <section>
+            <h3>楽曲紹介</h3>
+            <dl>
+              <div>
+                <dt>歌手名</dt>
+                <dd>WANDS</dd>
+              </div>
+              <div>
+                <dt>作詞</dt>
+                <dd>WANDS</dd>
+              </div>
+              <div>
+                <dt>作曲</dt>
+                <dd>WANDS</dd>
+              </div>
+            </dl>
+            <p class="lyric">
+              "世界が終わるまでは 離れる事もない<br>
+              そう願っていた 幾千の夜と"
+            </p>
+            <p class="description">
+              WANDSの8thシングル『世界が終るまでは…』は、第25話から49話までのED曲として起用されました。<br>
+              イントロのギターフレーズがかっこいいロックナンバー。<br>
+              クールで力強いボーカルが、男臭くも爽やかな青春を感じさせる楽曲です。
+            </p>
+          </section>
+          <section class="music-player">
+            <h3 class="none">再生プレイヤー</h3>
+            <dl>
+              <div>
+                <dt><img src="./img/apple-music.png" alt="apple music" /></dt>
+                <dd>Apple Music</dd>
+                <dd><a href="https://music.apple.com/jp/album/best-of-wands-history/75466337" target="_blank"><img src="./img/play-btn.png" alt="再生ボタン" /></a></dd>
+              </div>
+              <div>
+                <dt><img src="./img/youtube.png" alt="YouTube" /></dt>
+                <dd>YouTube</dd>
+                <dd><a href="https://www.youtube.com/results?search_query=%E4%B8%96%E7%95%8C%E3%81%8C%E7%B5%82%E3%82%8F%E3%82%8B%E3%81%BE%E3%81%A7%E3%81%AF" target="_blank"><img src="./img/play-btn.png" alt="再生ボタン" /></a></dd>
+              </div>
+              <div>
+                <dt><img src="./img/spotify.png" alt="spotify" /></dt>
+                <dd>Spotify</dd>
+                <dd><a href="https://open.spotify.com/album/1cIgDphXxGxw1ZYk21ogIf?highlight=spotify:track:4o59DHKSWaJlUGcC8SyrCg" target="_blank"><img src="./img/play-btn.png" alt="再生ボタン" /></a></dd>
+              </div>
+            </dl>
+          </section>
+        </article>
+      </div>
+    </main>
+  </div>
   <footer>
-    <p><small>&copy;井上雄彦/集英社・「Slum Dunk」製作委員会</small></p>
+    <small>&copy;井上雄彦/集英社・「Slum Dunk」製作委員会</small>
   </footer>
 </body>
 </html>
