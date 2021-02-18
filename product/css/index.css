@@ -97,7 +97,6 @@ body{
 @media (min-width: 481px){
     main{
         width: 70%;
-        float: right;
     } 
     .hidden {
         text-indent: 100%;
@@ -166,8 +165,6 @@ body{
         border-bottom: solid #D02A2A 2px;
         margin-bottom: 1em;
     }
-
-
     #book dl{
         width:100%;
         display: flex;
@@ -184,8 +181,5 @@ body{
     .book_num img {
         width: 220px;
     }
-    .slider img{
-        width: 100%;
-        margin: 0 auto;
-    }
+   
 }
