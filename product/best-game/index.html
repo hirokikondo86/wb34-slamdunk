@@ -1,45 +1,138 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SLAM DUNK | 名試合</title>
+  <link rel="stylesheet" type="text/css" href="../../css/common.css">
+  <link rel="stylesheet" type="text/css" href="../../css/destyle.css">
+  <link rel="stylesheet" type="text/css" href="../../css/header.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/indexPC.css">
 </head>
+
 <body>
-  <header>
-    <p><img src="../../img/utils/logo.png" alt="スラムダンクのロゴ画像"></p>
+  <header class="header">
+    
+    <div class="header__cont">
+      <a href="/">
+        <img class="header__cont__logo" src="../../img/logo.png" alt="ロゴ" />
+      </a>
+  ​
+      <input id="hamb" class="header__cont__checkbox" type="checkbox" />
+      <label class="header__cont__menu-btn" for="hamb"><span></span></label>
+  ​
+      <nav class="header__cont__nav drawer-menu">
+        <a href="/">
+          <img class="drawer-menu__logo" src="../../img/logo2.png" alt="ロゴ" />
+        </a>
+        <ul class="drawer-menu__list">
+          <li class="drawer-menu__list__item">
+            <a href="/product/detail/index.html">作品概要</a>
+          </li>
+          <li class="drawer-menu__list__item drawer-menu__list__item--right">
+            <a href="/product/theme-song/opening.html">オープニング</a>
+          </li>
+          <li class="drawer-menu__list__item drawer-menu__list__item--right">
+            <a href="/product/theme-song/ending.html">エンディング</a>
+          </li>
+          <li class="drawer-menu__list__item">
+            <a href="/product/character/index.html">キャラクター紹介</a>
+          </li>
+          <li class="drawer-menu__list__item">
+            <a href="/product/best-game/index.html">名試合</a>
+          </li>
+          <li class="drawer-menu__list__item">
+            <a href="/product/index.html">名場面</a>
+          </li>
+          <li class="drawer-menu__list__item">
+            <a href="/product/best-serif-rank/index.html">名言</a>
+          </li>
+          <li class="drawer-menu__list__item">
+            <a href="/sanctuary/index.html">聖地</a>
+          </li>
+        </ul>
+        <div class="drawer-menu__bb" href="/">
+          <img
+            class="drawer-menu__bb__img"
+            src="../../img/bb.png"
+            alt="バスケットボール"
+          />
+        </div>
+        <div class="drawer-menu__bb2" href="/">
+          <img
+            class="drawer-menu__bb2__img"
+            src="../../img/bb2.png"
+            alt="バスケットボール"
+          />
+        </div>
+        <label class="drawer__cont__back" for="hamb"></label>
+      </nav>
+    </div>
   </header>
   <!-- グローバルナビゲーション -->
-  <nav id="globalNav">
-    <dl>
-      <div>
-        <dt><a href="../detail.html">作品概要</a></dt>
-        <dd><a href="../theme-song/opening.html">オープニング</a></dd>
-        <dd><a href="../theme-song/ending.html">エンディング</a></dd>
-        <dt class="none">作品紹介</dt>
-        <dd><a href="../character/index.html">キャラクター紹介</a></dt>
-        <dd><a href="./index.html">名試合</a></dd>
-        <dd><a href="../best-scene/index.html">名場面</a></dd>
-        <dd><a href="../best-serif-rank/index.html">名言ランキング</a></dd>
-        <dd><a href="../../sanctuary/index.html">聖地</a></dd>
-      </div>
-    </dl>
-  </nav>
+
+  
   <main>
-    <h1>名試合</h1>
-    <dl>
-      <dt><img src="./img/game1/jpg" alt="○○対○○" /></dt>
-      <dd>何話 ○○対○○</dd>
-      <dt><img src="./img/game2/jpg" alt="○○対○○" /></dt>
-      <dd>何話 ○○対○○</dd>
-      <dt><img src="./img/game3/jpg" alt="○○対○○" /></dt>
-      <dd>何話 ○○対○○</dd>
-      <dt><img src="./img/game4/jpg" alt="○○対○○" /></dt>
-      <dd>何話 ○○対○○</dd>
-    </dl>
+    <p class="main__ttl">MATCH</p>
+    <div class="main-wrapper">
+      <h1>名試合</h1>
+      <div class="center-wrapper">
+        <div class="cont">
+          <dl>
+            <div class="left">
+              <dt><img src="./img/game2.jpg" alt="○○対○○" /></dt>
+            </div>
+            <div class="right">
+              <dd class="battle">何話 ○○対○○</dd>
+              <dd class="text">サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="cont">
+          <dl>
+            <div class="left">
+              <dt><img src="./img/game2.jpg" alt="○○対○○" /></dt>
+            </div>
+            <div class="right">
+              <dd class="battle">何話 ○○対○○</dd>
+              <dd class="text">サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="cont">
+          <dl>
+            <div class="left">
+              <dt><img src="./img/game2.jpg" alt="○○対○○" /></dt>
+            </div>
+            <div class="right">
+              <dd class="battle">何話 ○○対○○</dd>
+              <dd class="text">サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="cont">
+          <dl>
+            <div class="left">
+              <dt><img src="./img/game2.jpg" alt="○○対○○" /></dt>
+            </div>
+            <div class="right">
+              <dd class="battle">何話 ○○対○○</dd>
+              <dd class="text">サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</dd>
+            </div>
+
+          </dl>
+          <p class="button"><a href="">電子書籍購入はこちら</a></p>
+        </div>
+      </div>
+    </div>
   </main>
+
+
   <footer>
-    <p><small>&copy;井上雄彦/集英社・「Slum Dunk」製作委員会</small></p>
+    <small>&copy;井上雄彦/集英社・「SLAMDANK」製作委員会</small>
   </footer>
 </body>
+
 </html>
