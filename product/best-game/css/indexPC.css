@@ -1,5 +1,13 @@
 @media screen and (min-width:960px) {
-    /* 変更する */
+    .main__ttl {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        font-size: 3rem;
+        font-weight: bold;
+        color: #c4c4c4;
+        text-align: right;
+        text-transform: uppercase;
+    }
     main {
         margin-left: 350px;
     }
