@@ -10,11 +10,12 @@
 
 h1{
   opacity: 0.4;
-  font-size: 10vw;
+  font-size: 6vw;
   text-align: right;
   font-weight: bolder;
   letter-spacing: 2px;
   margin-bottom: 20px;
+  padding: 20px 20px 0 0;
 }
 main{
   width: 95%;
@@ -127,53 +128,48 @@ main{
   *{
     font-size: 2vw;
   }
-  .pc{
-    display: flex;
-    #globalNav{
-      width: 25%;
-    }
-    main{
-      width: 75%;
-      padding-right: 2%;
-      nav{
-        ul{
-          margin-bottom: 5%;
-          li{
-            width: 33.3%;
-            margin: 3.5% 0;
-            a{
-              padding: 16px 31%;
-            }
-            .longer{
-              padding: 16px 21.7%;
-            }
-            .longest{
-              padding: 16px 17%;
-            }
+  main{
+    width: 67%;
+    padding-right: 2%;
+    margin-left: 350px;
+    nav{
+      ul{
+        margin-bottom: 5%;
+        li{
+          width: 33.3%;
+          margin: 3.5% 0;
+          a{
+            padding: 16px 31%;
+          }
+          .longer{
+            padding: 16px 21.7%;
+          }
+          .longest{
+            padding: 16px 17%;
           }
         }
       }
-      article{
-        .chars{
+    }
+    article{
+      .chars{
+        display: flex;
+        flex-wrap: wrap;
+        section{
+          width: 50%;
+          margin: 0;
+          padding: 10px;
           display: flex;
-          flex-wrap: wrap;
-          section{
-            width: 50%;
-            margin: 0;
-            padding: 10px;
+          flex-flow: row-reverse;
+          a{
             display: flex;
             flex-flow: row-reverse;
-            a{
-              display: flex;
-              flex-flow: row-reverse;
-            }
-            h3{
-              padding: 0 5px;
-              font-size: 1.5vw;
-              line-height: unset;
-              span{
-                font-size: 3vw;
-              }
+          }
+          h3{
+            padding: 0 5px;
+            font-size: 1.5vw;
+            line-height: unset;
+            span{
+              font-size: 3vw;
             }
           }
         }
