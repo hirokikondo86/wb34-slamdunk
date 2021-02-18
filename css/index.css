@@ -12,6 +12,7 @@
   main {
     width: 100%;
     padding: 1rem;
+    margin-top: 75px;
   }
   .first_new_news h3 {
     font-size: 20px;

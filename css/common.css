@@ -7,6 +7,13 @@
   padding: 0 1.5rem;
 }
 
+/***** Mobile *****/
+@media screen and (max-width: 960px) {
+  .main {
+    margin-top: 75px;
+  }
+}
+
 .footer {
   display: flex;
   justify-content: center;
@@ -366,7 +373,6 @@ html {
  *--------------------------------------------*/
 a {
   text-decoration: none;
-  color: #333;
 }
 ​ a:hover img {
   filter: alpha(opacity=60);
@@ -383,23 +389,23 @@ a {
   overflow: hidden;
 }
 
-header img{
+header img {
   width: 40%;
 }
-@media (min-width: 960px){
-  header img{
+@media (min-width: 960px) {
+  header img {
     width: 25%;
   }
 }
 
-footer{
+footer {
   color: white;
   padding: 20px;
   margin-top: 50px;
   text-align: center;
-  background-color: #D02A2A;
+  background-color: #d02a2a;
 }
-footer p{
+footer p {
   font-size: 4vw;
   letter-spacing: 2px;
 }
