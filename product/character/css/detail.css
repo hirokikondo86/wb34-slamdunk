@@ -6,11 +6,12 @@
 
 h1 {
   opacity: 0.4;
-  font-size: 10vw;
+  font-size: 6vw;
   text-align: right;
   font-weight: bolder;
   letter-spacing: 2px;
   margin-bottom: 20px;
+  padding: 20px 20px 0 0;
 }
 
 main {
@@ -59,36 +60,29 @@ main article dl dd {
     font-size: 2vw;
   }
 
-  .pc {
-    display: flex;
-  }
-  .pc #globalNav {
-    width: 25%;
-  }
-  .pc main {
-    width: 46%;
-    padding: 1% 2% 1% 1%;
-    position: relative;
-    left: 297px;
+  main {
+    width: 35%;
+    padding: 7% 2% 1% 1%;
     margin-bottom: 100px;
+    margin-left: 660px;
   }
-  .pc main .charimg {
-    width: 64%;
+  main .charimg {
+    width: 30%;
     position: absolute;
-    top: 0px;
-    right: 469px;
+    top: 180px;
+    right: 370px;
     padding: 5px;
   }
-  .pc main h2 span {
+  main h2 span {
     font-size: 3vw;
   }
-  .pc main article h3 {
+  main article h3 {
     font-size: 3vw;
   }
-  .pc main article dl dt {
+  main article dl dt {
     width: 40%;
   }
-  .pc main article:nth-of-type(1) {
+  main article:nth-of-type(1) {
     margin-top: 40px;
   }
 }

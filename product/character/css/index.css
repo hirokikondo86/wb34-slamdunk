@@ -8,11 +8,12 @@
 
 h1 {
   opacity: 0.4;
-  font-size: 10vw;
+  font-size: 6vw;
   text-align: right;
   font-weight: bolder;
   letter-spacing: 2px;
   margin-bottom: 20px;
+  padding: 20px 20px 0 0;
 }
 
 main {
@@ -125,53 +126,48 @@ main article .sanno {
     font-size: 2vw;
   }
 
-  .pc {
-    display: flex;
-  }
-  .pc #globalNav {
-    width: 25%;
-  }
-  .pc main {
-    width: 75%;
+  main {
+    width: 67%;
     padding-right: 2%;
+    margin-left: 350px;
   }
-  .pc main nav ul {
+  main nav ul {
     margin-bottom: 5%;
   }
-  .pc main nav ul li {
+  main nav ul li {
     width: 33.3%;
     margin: 3.5% 0;
   }
-  .pc main nav ul li a {
+  main nav ul li a {
     padding: 16px 31%;
   }
-  .pc main nav ul li .longer {
+  main nav ul li .longer {
     padding: 16px 21.7%;
   }
-  .pc main nav ul li .longest {
+  main nav ul li .longest {
     padding: 16px 17%;
   }
-  .pc main article .chars {
+  main article .chars {
     display: flex;
     flex-wrap: wrap;
   }
-  .pc main article .chars section {
+  main article .chars section {
     width: 50%;
     margin: 0;
     padding: 10px;
     display: flex;
     flex-flow: row-reverse;
   }
-  .pc main article .chars section a {
+  main article .chars section a {
     display: flex;
     flex-flow: row-reverse;
   }
-  .pc main article .chars section h3 {
+  main article .chars section h3 {
     padding: 0 5px;
     font-size: 1.5vw;
     line-height: unset;
   }
-  .pc main article .chars section h3 span {
+  main article .chars section h3 span {
     font-size: 3vw;
   }
 }
