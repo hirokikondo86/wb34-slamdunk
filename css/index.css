@@ -90,8 +90,7 @@
     margin: 0;
   }
   main {
-    width: 70%;
-    float: right;
+    width: 100%;
   }
   #globalNav {
     display: none;
