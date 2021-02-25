@@ -143,6 +143,7 @@
   .header {
     position: fixed;
     height: 100%;
+    padding: 1rem;
   }
 
   .header__title {
@@ -153,6 +154,7 @@
     position: relative;
     padding-bottom: 8rem;
   }
+
   .header__cont__logo {
     display: block;
     width: 200px;
