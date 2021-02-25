@@ -2,29 +2,13 @@
   margin-bottom: 5rem;
 }
 
-/***** Mobile *****/
-@media screen and (max-width: 960px) {
-  .main__ttl {
-    padding: 2rem 0;
-    font-size: 3rem;
-    font-weight: bold;
-    color: #c4c4c4;
-    text-align: right;
-    text-transform: uppercase;
-  }
-}
-
-/***** Desktop *****/
-@media (min-width: 960px) {
-  .main__title {
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    font-size: 3rem;
-    font-weight: bold;
-    color: #c4c4c4;
-    text-align: right;
-    text-transform: uppercase;
-  }
+.main__ttl {
+  padding: 2rem 0;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #c4c4c4;
+  text-align: right;
+  text-transform: uppercase;
 }
 
 .main__item {
@@ -37,47 +21,6 @@
   width: 100%;
   max-width: 750px;
 }
-
-@media screen and (min-width: 960px) {
-  .link-wrap {
-    width: 100%;
-    max-width: 1200px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    gap: 3rem;
-  }
-  .main__item {
-    width: 440px;
-  }
-  .main__ttl {
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    font-size: 3rem;
-    font-weight: bold;
-    color: #c4c4c4;
-    text-align: right;
-    text-transform: uppercase;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .main__item {
-    height: 220px;
-  }
-}
-@media screen and (min-width: 480px) and (max-width: 1024px) {
-  .main__item {
-    height: 350px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .main__item {
-    height: 400px;
-  }
-}
-
 .main__item::before {
   position: absolute;
   content: "";
@@ -87,6 +30,7 @@
   left: 0;
   background-color: rgba(255, 255, 255, 0);
 }
+
 .main__item--fumikiri {
   background: url("../img/fumikiri.jpg");
   background-size: cover;
@@ -116,4 +60,22 @@
   position: absolute;
   bottom: 0.5rem;
   right: 0.5rem;
+}
+
+@media screen and (max-width: 480px) {
+  .main__item {
+    height: 220px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .main__item {
+    height: 350px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main__item {
+    height: 400px;
+  }
 }

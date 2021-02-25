@@ -3,7 +3,7 @@
 }
 
 /***** Mobile *****/
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 767px) {
   .header {
     position: fixed;
     top: 0;
@@ -139,10 +139,9 @@
 }
 
 /***** Desktop *****/
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
   .header {
     position: fixed;
-    width: 350px;
     height: 100%;
   }
 
