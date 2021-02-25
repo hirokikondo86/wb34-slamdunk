@@ -10,112 +10,102 @@
     <link rel="stylesheet" href="css/detail.css" />
   </head>
   <body>
-    <div class="container">
-      <header class="header">
-        <div class="header__cont">
+    <header class="header">
+      <div class="header__cont">
+        <a href="/">
+          <img class="header__cont__logo" src="../../img/logo.png" alt="ロゴ" />
+        </a>
+
+        <input id="hamb" class="header__cont__checkbox" type="checkbox" />
+        <label class="header__cont__menu-btn" for="hamb"><span></span></label>
+
+        <nav class="header__cont__nav drawer-menu">
           <a href="/">
             <img
-              class="header__cont__logo"
-              src="../../img/logo.png"
+              class="drawer-menu__logo"
+              src="../../img/logo2.png"
               alt="ロゴ"
             />
           </a>
-
-          <input id="hamb" class="header__cont__checkbox" type="checkbox" />
-          <label class="header__cont__menu-btn" for="hamb"><span></span></label>
-
-          <nav class="header__cont__nav drawer-menu">
-            <a href="/">
-              <img
-                class="drawer-menu__logo"
-                src="../../img/logo2.png"
-                alt="ロゴ"
-              />
-            </a>
-            <ul class="drawer-menu__list">
-              <li class="drawer-menu__list__item">
-                <a href="/product/detail.html">作品概要</a>
-              </li>
-              <li
-                class="drawer-menu__list__item drawer-menu__list__item--right"
-              >
-                <a href="/product/theme-song/opening.html">オープニング</a>
-              </li>
-              <li
-                class="drawer-menu__list__item drawer-menu__list__item--right"
-              >
-                <a href="/product/theme-song/ending.html">エンディング</a>
-              </li>
-              <li class="drawer-menu__list__item">
-                <a href="/product/character/index.html">キャラクター紹介</a>
-              </li>
-              <li class="drawer-menu__list__item">
-                <a href="/product/best-game/index.html">名試合</a>
-              </li>
-              <li class="drawer-menu__list__item">
-                <a href="/product/index.html">名場面</a>
-              </li>
-              <li class="drawer-menu__list__item">
-                <a href="/product/best-serif-rank/index.html">名言</a>
-              </li>
-              <li class="drawer-menu__list__item">
-                <a href="/sanctuary/index.html">聖地</a>
-              </li>
-            </ul>
-            <div class="drawer-menu__bb" href="/">
-              <img
-                class="drawer-menu__bb__img"
-                src="../../img/bb.png"
-                alt="バスケットボール"
-              />
-            </div>
-            <div class="drawer-menu__bb2" href="/">
-              <img
-                class="drawer-menu__bb2__img"
-                src="../../img/bb2.png"
-                alt="バスケットボール"
-              />
-            </div>
-            <label class="drawer__cont__back" for="hamb"></label>
-          </nav>
-        </div>
-      </header>
-      <main class="main">
-        <p class="main__ttl">sanctuary</p>
-        <h1 class="title">秋葉台文化体育館</h1>
-        <div class="img">
-          <img
-            class="img__anime"
-            src="../img/fumikiri2.jpg"
-            alt="秋葉台文化体育館（アニメ版）"
-          />
-          <img
-            class="img__sanc"
-            src="../img/akibadai.jpg"
-            alt="秋葉台文化体育館"
-          />
-        </div>
-        <div class="desc">
-          <p>
-            神奈川県大会で、湘北と海南大附属高校が試合をした体育館は秋葉台文化体育館です。
-          </p>
-          <p>
-            秋葉台文化体育館は1984年にオープンし、藤沢市北部のスポーツ活動拠点として市民に親しまれています。2つの体育室に武道場と弓道場、トレーニングルームなどの施設があります。
-          </p>
-        </div>
-        <iframe
-          class="sanc-map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3252.646953133026!2d139.4420363151936!3d35.3892113535392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601853dfac7b4845%3A0xe6e10279cf55349d!2z6Jek5rKi5biC56eL6JGJ5Y-w5paH5YyW5L2T6IKy6aSo!5e0!3m2!1sja!2sjp!4v1612436861437!5m2!1sja!2sjp"
-          width="600"
-          height="450"
-          frameborder="0"
-          style="border: 0"
-          allowfullscreen=""
-          aria-hidden="false"
-          tabindex="0"
-        ></iframe>
-      </main>
-    </div>
+          <ul class="drawer-menu__list">
+            <li class="drawer-menu__list__item">
+              <a href="/product/detail.html">作品概要</a>
+            </li>
+            <li class="drawer-menu__list__item drawer-menu__list__item--right">
+              <a href="/product/theme-song/opening.html">オープニング</a>
+            </li>
+            <li class="drawer-menu__list__item drawer-menu__list__item--right">
+              <a href="/product/theme-song/ending.html">エンディング</a>
+            </li>
+            <li class="drawer-menu__list__item">
+              <a href="/product/character/index.html">キャラクター紹介</a>
+            </li>
+            <li class="drawer-menu__list__item">
+              <a href="/product/best-game/index.html">名試合</a>
+            </li>
+            <li class="drawer-menu__list__item">
+              <a href="/product/index.html">名場面</a>
+            </li>
+            <li class="drawer-menu__list__item">
+              <a href="/product/best-serif-rank/index.html">名言</a>
+            </li>
+            <li class="drawer-menu__list__item">
+              <a href="/sanctuary/index.html">聖地</a>
+            </li>
+          </ul>
+          <div class="drawer-menu__bb" href="/">
+            <img
+              class="drawer-menu__bb__img"
+              src="../../img/bb.png"
+              alt="バスケットボール"
+            />
+          </div>
+          <div class="drawer-menu__bb2" href="/">
+            <img
+              class="drawer-menu__bb2__img"
+              src="../../img/bb2.png"
+              alt="バスケットボール"
+            />
+          </div>
+          <label class="drawer__cont__back" for="hamb"></label>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <p class="main__ttl">sanctuary</p>
+      <h1 class="title">秋葉台文化体育館</h1>
+      <div class="img">
+        <img
+          class="img__anime"
+          src="../img/fumikiri2.jpg"
+          alt="秋葉台文化体育館（アニメ版）"
+        />
+        <img
+          class="img__sanc"
+          src="../img/akibadai.jpg"
+          alt="秋葉台文化体育館"
+        />
+      </div>
+      <div class="desc">
+        <p>
+          神奈川県大会で、湘北と海南大附属高校が試合をした体育館は秋葉台文化体育館です。
+        </p>
+        <p>
+          秋葉台文化体育館は1984年にオープンし、藤沢市北部のスポーツ活動拠点として市民に親しまれています。2つの体育室に武道場と弓道場、トレーニングルームなどの施設があります。
+        </p>
+      </div>
+      <iframe
+        class="sanc-map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3252.646953133026!2d139.4420363151936!3d35.3892113535392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601853dfac7b4845%3A0xe6e10279cf55349d!2z6Jek5rKi5biC56eL6JGJ5Y-w5paH5YyW5L2T6IKy6aSo!5e0!3m2!1sja!2sjp!4v1612436861437!5m2!1sja!2sjp"
+        width="600"
+        height="450"
+        frameborder="0"
+        style="border: 0"
+        allowfullscreen=""
+        aria-hidden="false"
+        tabindex="0"
+      ></iframe>
+    </main>
     <footer>
       <small>&copy;井上雄彦/集英社・「Slum Dunk」製作委員会</small>
     </footer>

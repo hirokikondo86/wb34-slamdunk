@@ -4,9 +4,6 @@
 
 /***** Mobile *****/
 @media screen and (max-width: 960px) {
-  .main {
-    margin-top: 75px;
-  }
   .main__ttl {
     padding: 2rem 0;
     font-size: 3rem;
@@ -42,9 +39,6 @@
 }
 
 @media screen and (min-width: 960px) {
-  .main {
-    margin-left: 350px;
-  }
   .link-wrap {
     width: 100%;
     max-width: 1200px;
