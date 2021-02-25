@@ -30,7 +30,7 @@ main {
 
 .content dd {
     /* 要素の影([右][下][ぼかし][広がり][影の色][内側]) */
-    box-shadow: 0px -15px 10px 5px rgba(0, 0, 0, 0.4) inset;
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.4) inset;
     border: 5px solid rgb(225, 225, 225)
 }
 
@@ -76,11 +76,6 @@ main {
 }
 
 @media(min-width:960px) {
-    main {
-        width: 75%;
-        padding-top: 0px;
-        margin-left: 350px;
-    }
     dl {
         display: flex;
         justify-content: center;
@@ -88,7 +83,7 @@ main {
         align-items: baseline;
     }
     .scene-title {
-        font-size: 1.6rem;
+        font-size: 1.3rem;
     }
     .content {
         width: 48%;

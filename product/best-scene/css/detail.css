@@ -99,11 +99,6 @@ main {
 /* css PC */
 
 @media(min-width:960px) {
-    main {
-        width: 75%;
-        padding-top: 0px;
-        margin-left: 22.5%;
-    }
     .main-image,
     .explain,
     .back-btn {
