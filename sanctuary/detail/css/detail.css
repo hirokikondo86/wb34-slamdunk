@@ -1,8 +1,14 @@
 .main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   margin-bottom: 5rem;
+}
+
+.main__ttl {
+  padding: 2rem 0;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #c4c4c4;
+  text-align: right;
+  text-transform: uppercase;
 }
 
 .title {
@@ -12,10 +18,6 @@
 .img {
   width: 100%;
   margin-bottom: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .img__anime {
   width: 100%;
@@ -27,38 +29,72 @@
   max-width: 750px;
 }
 
-@media screen and (max-width: 480px) {
-  .img__anime {
-    height: 220px;
-  }
-  .img__sanc {
-    height: 220px;
-  }
-}
-@media screen and (min-width: 480px) and (max-width: 960px) {
-  .img__anime {
-    height: 350px;
-  }
-  .img__sanc {
-    height: 350px;
-  }
-}
-@media screen and (min-width: 960px) {
-  .main {
-    margin-left: 350px;
-  }
+/***** Mobile *****/
+@media screen and (max-width: 479px) {
   .img {
-    width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .img__anime {
+    height: 220px;
+  }
+  .img__sanc {
+    height: 220px;
+  }
+}
+
+/***** Mobile && Tablet *****/
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .img__anime {
+    width: 100%;
+    height: 350px;
+  }
+  .img__sanc {
+    width: 100%;
+    height: 350px;
+  }
+}
+
+/***** Tablet && Desktop *****/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .img__anime {
+    width: 100%;
+    height: 350px;
+  }
+  .img__sanc {
+    width: 100%;
+    height: 350px;
+  }
+}
+
+/***** Desktop *****/
+@media screen and (min-width: 1025px) {
+  .img {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
   }
   .img__anime {
-    width: 350px;
+    width: 320px;
     height: 250px;
   }
   .img__sanc {
-    width: 350px;
+    width: 320px;
     height: 250px;
   }
 }
@@ -77,29 +113,4 @@
   width: 100%;
   max-width: 750px;
   height: 300px;
-}
-
-/***** Desktop *****/
-@media screen and (min-width: 960px) {
-  .main__ttl {
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    font-size: 3rem;
-    font-weight: bold;
-    color: #c4c4c4;
-    text-align: right;
-    text-transform: uppercase;
-  }
-}
-
-/***** Mobile *****/
-@media screen and (max-width: 960px) {
-  .main__ttl {
-    margin: 2rem 0;
-    font-size: 3rem;
-    font-weight: bold;
-    color: #c4c4c4;
-    text-align: right;
-    text-transform: uppercase;
-  }
 }
