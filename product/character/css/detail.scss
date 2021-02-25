@@ -18,6 +18,7 @@ main{
   }
   p{
     padding: 10px 15px;
+    font-size: 3vw;
     img{
       width: 100%;
       margin-bottom: 25px;
@@ -34,6 +35,7 @@ main{
     dl{
       padding: 10px 15px;
       line-height: 180%;
+      font-size: 3vw;
       dt{
         width: 30%;
         float: left;
@@ -47,20 +49,20 @@ main{
 }
 
 /***** Mobile *****/
-@media screen and (max-width: 960px) {
+// @media screen and (max-width: 960px) {
   .main__ttl {
-    margin: 2rem 0;
+    padding: 3rem 0;
     font-size: 3rem;
     font-weight: bold;
     color: #c4c4c4;
     text-align: right;
     text-transform: uppercase;
   }
-}
+// }
 
-@media screen and (min-width: 960px){
+@media screen and (min-width: 768px){
   .main__ttl {
-    margin-top: 3rem;
+    padding-top: 2rem;
     margin-bottom: 2rem;
     font-size: 3rem;
     font-weight: bold;
@@ -69,28 +71,37 @@ main{
     text-transform: uppercase;
   }
   main{
-    width: 35%;
-    padding: 7% 2% 1% 1%;
+    padding: 0% 2% 1% 1%;
     margin-bottom: 100px;
-    margin-left: 660px;
-    .charimg{
-      width: 30%;
-      position: absolute;
-      top: 180px;
-      right: 370px;
-      padding: 5px;
+    section{
+      height: 100px;
+      margin-left: 260px;
+      .charimg{
+        width: 270px;
+        position: relative;
+        top: -110px;
+        right: 280px;
+        padding: 5px;
+      }
     }
     h2{
       span{
         font-size: 3vw;
       }
     }
+    p{
+      font-size: 2vw;
+    }
     article{
+      margin-left: 260px;
       h3{
         font-size: 3vw;
       }
-      dl dt{
-        width: 40%;
+      dl{
+        font-size: 2vw;
+        dt{
+          width: 40%;
+        }
       }
     }
     article:nth-of-type(1){

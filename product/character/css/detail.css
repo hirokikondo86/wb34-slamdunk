@@ -16,6 +16,7 @@ main h2 span {
 }
 main p {
   padding: 10px 15px;
+  font-size: 3vw;
 }
 main p img {
   width: 100%;
@@ -33,6 +34,7 @@ main article h3 {
 main article dl {
   padding: 10px 15px;
   line-height: 180%;
+  font-size: 3vw;
 }
 main article dl dt {
   width: 30%;
@@ -44,19 +46,18 @@ main article dl dd {
 }
 
 /***** Mobile *****/
-@media screen and (max-width: 960px) {
-  .main__ttl {
-    margin: 2rem 0;
-    font-size: 3rem;
-    font-weight: bold;
-    color: #c4c4c4;
-    text-align: right;
-    text-transform: uppercase;
-  }
+.main__ttl {
+  padding: 3rem 0;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #c4c4c4;
+  text-align: right;
+  text-transform: uppercase;
 }
-@media screen and (min-width: 960px) {
+
+@media screen and (min-width: 768px) {
   .main__ttl {
-    margin-top: 3rem;
+    padding-top: 2rem;
     margin-bottom: 2rem;
     font-size: 3rem;
     font-weight: bold;
@@ -66,23 +67,34 @@ main article dl dd {
   }
 
   main {
-    width: 35%;
-    padding: 7% 2% 1% 1%;
+    padding: 0% 2% 1% 1%;
     margin-bottom: 100px;
-    margin-left: 660px;
   }
-  main .charimg {
-    width: 30%;
-    position: absolute;
-    top: 180px;
-    right: 370px;
+  main section {
+    height: 100px;
+    margin-left: 260px;
+  }
+  main section .charimg {
+    width: 270px;
+    position: relative;
+    top: -110px;
+    right: 280px;
     padding: 5px;
   }
   main h2 span {
     font-size: 3vw;
   }
+  main p {
+    font-size: 2vw;
+  }
+  main article {
+    margin-left: 260px;
+  }
   main article h3 {
     font-size: 3vw;
+  }
+  main article dl {
+    font-size: 2vw;
   }
   main article dl dt {
     width: 40%;

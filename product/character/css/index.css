@@ -16,11 +16,11 @@ main nav ul {
 }
 main nav ul li {
   width: 48%;
-  margin: 6% 0;
+  margin: 25px 0;
 }
 main nav ul li a {
   color: white;
-  padding: 16px 31%;
+  padding: 16px 25%;
   text-align: center;
   border-radius: 7px;
   background: dimgray;
@@ -30,6 +30,35 @@ main nav ul li .longer {
 }
 main nav ul li .longest {
   padding: 16px 17%;
+}
+main nav ul li:nth-of-type(1) a {
+  border: solid black 3px;
+  background: #D02A2A;
+}
+main nav ul li:nth-of-type(2) a {
+  border: solid #0B46B9 3px;
+  background: white;
+  color: #0B46B9;
+}
+main nav ul li:nth-of-type(3) a {
+  border: solid #1D9521 3px;
+  background: white;
+  color: #1D9521;
+}
+main nav ul li:nth-of-type(4) a {
+  border: solid #3700AD 3px;
+  background: #FFE600;
+  color: black;
+}
+main nav ul li:nth-of-type(5) a {
+  border: solid #001F8E 3px;
+  background: #228DEF;
+  color: white;
+}
+main nav ul li:nth-of-type(6) a {
+  border: solid #228DEF 3px;
+  background: white;
+  color: #228DEF;
 }
 main article {
   margin-bottom: 20px;
@@ -53,7 +82,6 @@ main article section a {
 }
 main article section h3 {
   border-bottom: solid #BB5535 3px;
-  height: 60px;
   margin: auto;
   color: #5B5B5B;
   padding: 0 3px;
@@ -115,47 +143,35 @@ main article .sanno {
 }
 
 /***** Mobile *****/
-@media screen and (max-width: 960px) {
-  .main__ttl {
-    margin: 2rem 0;
-    font-size: 3rem;
-    font-weight: bold;
-    color: #c4c4c4;
-    text-align: right;
-    text-transform: uppercase;
-  }
+.main__ttl {
+  padding: 3rem 0 1rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #c4c4c4;
+  text-align: right;
+  text-transform: uppercase;
 }
-@media screen and (min-width: 960px) {
-  .main__ttl {
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    font-size: 3rem;
-    font-weight: bold;
-    color: #c4c4c4;
-    text-align: right;
-    text-transform: uppercase;
-  }
 
+@media screen and (min-width: 960px) {
   main {
-    width: 67%;
     padding-right: 2%;
-    margin-left: 350px;
+    margin-right: 0;
   }
   main nav ul {
     margin-bottom: 5%;
   }
   main nav ul li {
-    width: 33.3%;
-    margin: 3.5% 0;
-  }
-  main nav ul li a {
-    padding: 16px 31%;
+    width: 33%;
+    margin: 30px 0;
   }
   main nav ul li .longer {
     padding: 16px 23.5%;
   }
   main nav ul li .longest {
-    padding: 16px 20%;
+    padding: 16px 19%;
+  }
+  main article {
+    margin-bottom: 30px;
   }
   main article .chars {
     display: flex;
