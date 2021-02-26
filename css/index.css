@@ -1,6 +1,52 @@
 .btn__link {
   color: #fff;
 }
+.slider {
+  padding: 0;
+}
+.slider img {
+  width: 100%;
+  height: auto;
+}
+.slick-slide {
+  height: auto;
+}
+.slick-prev {
+  left: 10px;
+  background-color: #000;
+}
+.slick-next {
+  right: 10px;
+}
+.slick-prev,
+.slick-next {
+  z-index: 100;
+}
+.slick-prev::before,
+.slick-next::before {
+  font-size: 24px;
+  color: #000;
+}
+.slick-dots {
+  bottom: -40px;
+}
+.multiple {
+  padding: 0;
+}
+.multiple img {
+  width: 100%;
+}
+.multiple li {
+  margin: 0 5px;
+}
+.multiple .slick-next {
+  right: 17px;
+  z-index: 100;
+}
+.multiple .slick-prev {
+  left: 23px;
+  z-index: 100;
+}
 
 @media screen and (max-width: 480px) {
   nav {
@@ -90,8 +136,7 @@
     margin: 0;
   }
   main {
-    width: 70%;
-    float: right;
+    width: 100%;
   }
   #globalNav {
     display: none;
@@ -107,6 +152,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 50em;
+  }
+  .first_new_news{
+    padding-left: 1rem;
   }
   .first_new_news h3 {
     width: 98%;
@@ -134,11 +182,6 @@
   #synopsis {
     width: 98%;
   }
-  #synopsis h2 {
-    text-align: center;
-    font-size: 24px;
-    margin-top: 1em;
-  }
   #synopsis_detail {
     padding-top: 1em;
     display: flex;
@@ -157,10 +200,11 @@
   /* .slider img{
         width: 1000px;
     } */
-  .name h3 {
+  .name h3,#synopsis h2 {
     text-align: center;
     font-size: 24px;
-    margin: 1em;
+    padding-bottom: 2em;
+    padding-top: 2em;
   }
   .name p {
     color: #ffffff;

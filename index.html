@@ -7,10 +7,10 @@
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/header.css">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1/slick/slick.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1/slick/slick.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1/slick/slick-theme.min.css">  
+  <link rel="stylesheet" href="./css/slick-theme.css">
+  <link rel="stylesheet" href="./css/slick.css">
+  <script src="./js/jquery-3.4.1.slim.min.js"></script>
+  <script src="./js/slick.min.js"></script>
   <title>SLAM DUNK | あの頃の感動をもう一度</title>
 </head>
 <body>
@@ -112,18 +112,17 @@
       <section class="name">
         <h3>名場面</h3>
         <!-- 名場面の画像をcssで表示, スライドショー -->
-        <ul class="slider" class="multiple-items">
+        <ul class="slider multiple">
           <li><a href="#"><img src="./img/MaskGroup.png" alt="image01"></a></li>
           <li><a href="#"><img src="./img/MaskGroup.png" alt="image01"></a></li>
           <li><a href="#"><img src="./img/MaskGroup.png" alt="image01"></a></li>
-          
         </ul>
         <p><a class="btn__link" href="./product/best-scene/index.html">名場面ページへ　＞</a></p>
       </section>
       <section class="name">
         <h3>名試合</h3>
         <!-- 名試合の画像をcssで表示, スライドショー -->
-        <ul class="slider">
+        <ul class="slider multiple">
           <li><a href="#"><img src="./img/sakuragi.png" alt="image01"></a></li>
           <li><a href="#"><img src="./img/member5.png" alt="image02"></a></li>
           <li><a href="#"><img src="./img/sakuragi.png" alt="image01"></a></li>
@@ -133,7 +132,7 @@
       <section class="name">
         <h3>名言ランキング</h3>
         <!-- 名言の画像をcssで表示, スライドショー -->
-        <ul class="slider">
+        <ul class="slider multiple">
           <li><a href="#"><img src="./img/sakuragi.png" alt="image01"></a></li>
           <li><a href="#"><img src="./img/member5.png" alt="image02"></a></li>
           <li><a href="#"><img src="./img/sakuragi.png" alt="image01"></a></li>
@@ -143,9 +142,30 @@
     </article>
   </div>
   </main>
-  <!-- <footer class="footer">
-    <p><small>&copy;井上雄彦/集英社・「Slum Dunk」製作委員会</small></p>
-  </footer> -->
-  <script src="js/index.js"></script>
+  <footer class="footer">
+    <small>&copy;井上雄彦/集英社・「Slum Dunk」製作委員会</small>
+  </footer>
+  <script>
+    $('.multiple').slick({
+        autoplay: true, //自動再生
+        infinite: true, //スライドのループ有効化
+        dots: true, //ドットのナビゲーションを表示
+        slidesToShow: 4, //表示するスライドの数
+        slidesToScroll: 4, //スクロールで切り替わるスライドの数
+        responsive: [{
+          breakpoint: 768, //ブレークポイントが768px
+          settings: {
+            slidesToShow: 3, //表示するスライドの数
+            slidesToScroll: 3, //スクロールで切り替わるスライドの数
+          }
+        },{
+        breakpoint: 480, //ブレークポイントが480px
+        settings: {
+          slidesToShow: 2, //表示するスライドの数
+          slidesToScroll: 2, //スクロールで切り替わるスライドの数
+      }
+    }]
+  });
+  </script>
 </body>
 </html>

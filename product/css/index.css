@@ -5,6 +5,51 @@ body {
 .btn__link {
   color: #fff;
 }
+.slider {
+  padding: 0;
+}
+.slider img {
+  width: 100%;
+  height: auto;
+}
+.slick-slide {
+  height: auto;
+}
+.slick-prev {
+  left: 10px;
+  /* background-color: #000; */
+}
+.slick-next {
+  right: 10px;
+}
+.slick-prev,
+.slick-next {
+  z-index: 100;
+}
+.slick-prev::before,
+.slick-next::before {
+  font-size: 24px;
+}
+.slick-dots {
+  bottom: -40px;
+}
+.multiple {
+  padding: 0;
+}
+.multiple img {
+  width: 100%;
+}
+.multiple li {
+  margin: 0 5px;
+}
+.multiple .slick-next {
+  right: 17px;
+  z-index: 100;
+}
+.multiple .slick-prev {
+  left: 23px;
+  z-index: 100;
+}
 @media screen and (max-width: 480px) {
   main {
     width: 100%;
@@ -103,7 +148,7 @@ body {
 }
 @media (min-width: 481px) {
   main {
-    margin-left: 360px;
+    width: 100%;
   }
   .hidden {
     text-indent: 100%;
@@ -111,21 +156,26 @@ body {
     overflow: hidden;
   }
   #background_member {
-    height: 100vh;
     background-image: url(../../img/member5.png);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    padding-top: 30em;
+    padding-bottom: 5em;
+  }
+  .synopsis,.syouhoku_member,.name,.seiti,#book{
+    padding-left: 1em;
+    padding-right: 1em;
   }
   .synopsis h2 {
+    width: 100%;
     font-size: 24px;
     padding-left: 1em;
-    width: 90%;
     padding-bottom: 0.4em;
     border-bottom: solid #d02a2a 2px;
   }
   #story {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     padding: 1em;
     font-size: 16px;
@@ -144,7 +194,7 @@ body {
   .detail_story h3 {
     font-size: 24px;
     padding-left: 1em;
-    width: 90%;
+    width: 100%;
     padding-bottom: 0.4em;
     border-bottom: solid #d02a2a 2px;
   }
@@ -171,7 +221,7 @@ body {
   #book h2 {
     font-size: 24px;
     padding-left: 1em;
-    width: 90%;
+    width: 100%;
     padding-bottom: 0.4em;
     border-bottom: solid #d02a2a 2px;
     margin-bottom: 1em;
