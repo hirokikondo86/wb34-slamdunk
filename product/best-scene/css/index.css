@@ -2,6 +2,10 @@
     display: none;
 }
 
+main {
+    padding-top: 75px;
+}
+
 .best-scene {
     width: 90%;
     margin: 0 auto;
@@ -10,29 +14,55 @@
 .content {
     width: 90%;
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 30px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid;
+    border-color: var(--primary-color);
 }
 
 .content img {
     width: 100%;
-    height: auto;
+    height: 200px;
+    object-fit: contain;
     position: relative;
     z-index: -1;
 }
 
-.content dt {
+.content dd {
     /* 要素の影([右][下][ぼかし][広がり][影の色][内側]) */
-    box-shadow: 0px -15px 10px 5px rgba(0, 0, 0, 0.4) inset;
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.4) inset;
     border: 5px solid rgb(225, 225, 225)
 }
 
 .scene-title {
-    color: white;
     font-size: 16px;
-    text-align: right;
-    position: relative;
-    bottom: 24px;
-    right: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.pr-btn {
+    background-color: #D02A2A;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 600;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.pr-btn:hover {
+    opacity: 0.7;
+    color: white;
+}
+
+.pr-btn p {
+    color: #fff;
+}
+
+.pr-btn span {
+    margin-left: 20px;
 }
 
 .main__ttl {
@@ -46,10 +76,6 @@
 }
 
 @media(min-width:960px) {
-    main {
-        width: 75%;
-        margin-left: 22.5%;
-    }
     dl {
         display: flex;
         justify-content: center;
@@ -57,13 +83,15 @@
         align-items: baseline;
     }
     .scene-title {
-        font-size: 1.8rem;
-        position: relative;
-        bottom: 35px;
-        right: 10px;
+        font-size: 1.3rem;
     }
     .content {
         width: 48%;
+        margin-top: 40px;
+        padding-bottom: 50px;
+    }
+    hr {
+        display: none;
     }
     .main__ttl {
         margin: 2rem 0;
